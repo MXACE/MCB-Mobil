@@ -1,0 +1,18 @@
+.TSX-3225_25.0000MF10P-C0 :1 ;Crystals 25MHz 10ppm 18pF -20C +85C
+TSX3225250000MF10PC0
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="GND_1" 3="CRYSTAL_2" 4="GND_2"
+*MXP 4
+*DFN TSX-3225_25.0000MF10P-C0
+~!Manufacturer_Name (Epson Timing)
+~!Manufacturer_Part_Number (TSX-3225 25.0000MF10P-C0)
+~!Mouser Part Number (732-322525F10PC0)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=732-322525F10PC0)
+~!RS Part Number (-)
+~!RS Price/Stock (-)
+~!Link Datasheet (https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en)
+~!Height (0.6mm)
+~!3D_Model (TSX-3225_25.0000MF10P-C0)
+TSX-3225_25.0000MF10P-C0
+1.1!U 2.1!U 3.1!U 4.1!U 

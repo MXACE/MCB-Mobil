@@ -1,0 +1,36 @@
+Change Component Description : Designator=D2 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D1 Old Description=LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA New Description=
+LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA
+
+Added Component: Designator=C1(CAP_0603i_1608m -L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=C2(CAP_0603i_1608m -L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=+3.3V Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=+3.3V Pin=C2-2
+Added Member To Class: ClassName=Funk Member=Component C1 100nF
+Added Member To Class: ClassName=Funk Member=Component C2 100nF
+Added Member To Class: ClassName=Funk Member=Component P1 Power Supply Pin
+Added Room: Name=Funk

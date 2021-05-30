@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=GND Pin=U7-17
+Removed Pin From Net: NetName=NetU6_69 Pin=U7-20
+Removed Pin From Net: NetName=NetU6_68 Pin=U7-21
+Removed Pin From Net: NetName=+3.3 Pin=U7-22
+Removed Pin From Net: NetName=GND Pin=U7-23
+Removed Member From Class: ClassName=uC Member=U7
+Change Component Designator: OldDesignator=1S NewDesignator=P22
+Change Component Designator: OldDesignator=2S NewDesignator=P23
+Change Component Designator: OldDesignator=3S NewDesignator=P24
+Change Component Designator: OldDesignator=4S NewDesignator=P25
+Change Component Designator: OldDesignator=5S NewDesignator=P26
+Change Component Designator: OldDesignator=6S NewDesignator=P27
+Change Component Designator: OldDesignator=DIR NewDesignator=P16
+Change Component Designator: OldDesignator=DIR NewDesignator=P19
+Change Component Designator: OldDesignator=DIR NewDesignator=P36
+Change Component Designator: OldDesignator=DIR NewDesignator=P39
+Change Component Designator: OldDesignator=EN NewDesignator=P15
+Change Component Designator: OldDesignator=EN NewDesignator=P37
+Change Component Designator: OldDesignator=EN NewDesignator=P38
+Change Component Designator: OldDesignator=ENABLE NewDesignator=P18
+Change Component Designator: OldDesignator=FAULT NewDesignator=P20
+Change Component Designator: OldDesignator=FAULT NewDesignator=P35
+Change Component Designator: OldDesignator=FAULT NewDesignator=P40
+Change Component Designator: OldDesignator=MCO NewDesignator=P34
+Change Component Designator: OldDesignator=STEP NewDesignator=P17
+Added Component: Designator=J13(*PHOENIX_1751264)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "277-5744-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/phoenix-contact/1751264/277-5744-ND/2511021?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Phoenix Contact"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1751264"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1751264/Phoenix%20Contact/view-part/1231309/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetU6_68 Pin=J13-1
+Added Pin To Net: NetName=NetU6_69 Pin=J13-2
+Added Pin To Net: NetName=+3.3 Pin=J13-3
+Added Pin To Net: NetName=GND Pin=J13-4
+Added Pin To Net: NetName=NetRA2_4 Pin=U4-E
+Change Net Name : Old Net Name=NetU6_68 New Net Name=NetJ13_1
+Change Net Name : Old Net Name=NetU6_69 New Net Name=NetJ13_2
+Added Member To Class: ClassName=uC Member=Component J13 Front-LEFT
+Added Member To Class: ClassName=uC Member=Component P18 Pad
+Added Member To Class: ClassName=uC Member=Component P19 Pad
+Added Member To Class: ClassName=uC Member=Component P35 Pad
+Added Member To Class: ClassName=uC Member=Component P36 Pad
+Added Member To Class: ClassName=uC Member=Component P37 Pad
+Added Member To Class: ClassName=uC Member=Component P38 Pad
+Added Member To Class: ClassName=uC Member=Component P39 Pad
+Added Member To Class: ClassName=uC Member=Component P40 Pad
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

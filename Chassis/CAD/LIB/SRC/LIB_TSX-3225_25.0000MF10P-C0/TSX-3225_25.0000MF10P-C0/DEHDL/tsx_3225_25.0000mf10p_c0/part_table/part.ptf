@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TSX_3225_25.0000MF10P_C0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "RS_PART_NUMBER", "RS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Epson Timing", "TSX-3225 25.0000MF10P-C0" (!) = "", "TSX3225250000MF10PC0", "Other", "732-322525F10PC0", "https://www.mouser.com/Search/Refine.aspx?Keyword=732-322525F10PC0", "", "", "Crystals 25MHz 10ppm 18pF -20C +85C", "https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en", "0.6 mm"
+END_PART
+
+END.

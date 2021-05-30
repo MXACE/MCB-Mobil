@@ -1,0 +1,23 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [PCB_Chassisv1.0.PcbDoc]
+   Generated File[PCB_Chassisv1.0.GTO]
+   Generated File[PCB_Chassisv1.0.GTP]
+   Generated File[PCB_Chassisv1.0.GTS]
+   Generated File[PCB_Chassisv1.0.GTL]
+   Generated File[PCB_Chassisv1.0.GBL]
+   Generated File[PCB_Chassisv1.0.GBS]
+   Generated File[PCB_Chassisv1.0.GBP]
+   Generated File[PCB_Chassisv1.0.GBO]
+   Generated File[PCB_Chassisv1.0.GM1]
+   Generated File[PCB_Chassisv1.0.GPT]
+   Generated File[PCB_Chassisv1.0.GPB]
+   Generated File[PCB_Chassisv1.0.RUL]
+   Generated File[PCB_Chassisv1.0.EXTREP]
+   Generated File[PCB_Chassisv1.0.REP]
+
+
+Files Generated   : 14
+Documents Printed : 0
+
+Finished Output Generation At 15:37:53 On 08.01.2020

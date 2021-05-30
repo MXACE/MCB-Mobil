@@ -1,0 +1,17 @@
+Added Component: Designator=U?(SOT-23-M)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Built_By"; Value = "EMA_UL_Team"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Copyright"; Value = "Copyright (C) 2018 Accelerated Designs. All rights reserved"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "AP2120N-3.3TRG1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "DEV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Value"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vendor"; Value = "Diodes Inc"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U?-1
+Added Pin To Net: NetName=+3.3V Pin=U?-2
+Added Pin To Net: NetName=+5 Pin=U?-3
+Added Member To Class: ClassName=Funk Member=Component C1 1uF
+Added Member To Class: ClassName=Funk Member=Component C2 1uF
+Added Member To Class: ClassName=Funk Member=Component R1 10
+Added Member To Class: ClassName=Funk Member=Component R3 10
+Added Member To Class: ClassName=Funk Member=Component U? Part Number: AP2120N-3.3TRG1

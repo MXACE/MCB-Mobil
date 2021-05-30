@@ -1,0 +1,64 @@
+Removed Member From Class: ClassName=PowerSupply Member=P7
+Removed Member From Class: ClassName=PowerSupply Member=P10
+Removed Member From Class: ClassName=PowerSupply Member=P12
+Removed Member From Class: ClassName=Sheet1 Member=P12
+Removed Member From Class: ClassName=PowerSupply Member=P13
+Removed Member From Class: ClassName=Sheet1 Member=P13
+Removed Member From Class: ClassName=MotorDriver Member=P19
+Removed Member From Class: ClassName=MotorDriver Member=P22
+Removed Member From Class: ClassName=uC Member=P41
+Removed Member From Class: ClassName=uC Member=P42
+Removed Member From Class: ClassName=uC Member=P43
+Removed Member From Class: ClassName=PowerSupply Member=U3
+Removed Member From Class: ClassName=PowerSupply Member=U4
+Change Component Designator: OldDesignator=U3 NewDesignator=U1
+Change Component Designator: OldDesignator=U4 NewDesignator=U2
+Change Component Designator: OldDesignator=U5 NewDesignator=U3
+Change Component Designator: OldDesignator=U6 NewDesignator=U4
+Change Component Designator: OldDesignator=U7 NewDesignator=U5
+Change Component Designator: OldDesignator=U8 NewDesignator=U6
+Change Component Designator: OldDesignator=U9 NewDesignator=U7
+Added Pin To Net: NetName=NetRA2_4 Pin=U4-E
+Change Net Name : Old Net Name=NetU5_2 New Net Name=NetU3_2
+Change Net Name : Old Net Name=NetU5_9 New Net Name=NetU3_9
+Change Net Name : Old Net Name=NetU5_10 New Net Name=NetU3_10
+Change Net Name : Old Net Name=NetU5_11 New Net Name=NetU3_11
+Change Net Name : Old Net Name=NetU5_12 New Net Name=NetU3_12
+Change Net Name : Old Net Name=NetU5_14 New Net Name=NetU3_14
+Change Net Name : Old Net Name=NetU5_16 New Net Name=NetU3_16
+Change Net Name : Old Net Name=NetU5_19 New Net Name=NetU3_19
+Change Net Name : Old Net Name=NetU7_1 New Net Name=NetU5_1
+Change Net Name : Old Net Name=NetU7_2 New Net Name=NetU5_2
+Change Net Name : Old Net Name=NetU7_3 New Net Name=NetU5_3
+Change Net Name : Old Net Name=NetU7_4 New Net Name=NetU5_4
+Change Net Name : Old Net Name=NetU7_5 New Net Name=NetU5_5
+Change Net Name : Old Net Name=NetU7_6 New Net Name=NetU5_6
+Change Net Name : Old Net Name=NetU8_68 New Net Name=NetU6_68
+Change Net Name : Old Net Name=NetU8_69 New Net Name=NetU6_69
+Added Member To Class: ClassName=PowerSupply Member=Component P2 Header 2
+Added Member To Class: ClassName=PowerSupply Member=Component P3 Header 2
+Added Member To Class: ClassName=PowerSupply Member=Component P4 Battery -
+Added Member To Class: ClassName=PowerSupply Member=Component P5 Header 2
+Added Member To Class: ClassName=PowerSupply Member=Component P6 Header 2
+Added Member To Class: ClassName=Sheet1 Member=Component P8 Header 7
+Added Member To Class: ClassName=Sheet1 Member=Component P9 Header 2
+Added Member To Class: ClassName=MotorDriver Member=Component P11 Header 2
+Added Member To Class: ClassName=MotorDriver Member=Component P14 Header 2
+Added Member To Class: ClassName=uC Member=Component P15 Pad
+Added Member To Class: ClassName=uC Member=Component P16 Pad
+Added Member To Class: ClassName=uC Member=Component P17 Pad
+Added Member To Class: ClassName=uC Member=Component P18 Pad
+Added Member To Class: ClassName=uC Member=Component P20 Pad
+Added Member To Class: ClassName=uC Member=Component P23 Pad
+Added Member To Class: ClassName=uC Member=Component P25 Pad
+Added Member To Class: ClassName=uC Member=Component P26 Pad
+Added Member To Class: ClassName=uC Member=Component P30 IDC-20
+Added Member To Class: ClassName=uC Member=Component P32 Pad
+Added Member To Class: ClassName=uC Member=Component P34 Pad
+Added Member To Class: ClassName=uC Member=Component P35 Pad
+Added Member To Class: ClassName=uC Member=Component P37 Pad
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

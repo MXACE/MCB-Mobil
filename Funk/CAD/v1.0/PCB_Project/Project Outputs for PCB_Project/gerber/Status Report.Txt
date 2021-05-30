@@ -1,0 +1,28 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Project [PCB_Project.PrjPcb]
+   Generated File[Funk_Copper_Signal_Top.gbr]
+   Generated File[Funk_Copper_Signal_Bot.gbr]
+   Generated File[Funk_Pads_Bot.gbr]
+   Generated File[Funk_Pads_Top.gbr]
+   Generated File[Funk_Legend_Bot.gbr]
+   Generated File[Funk_Soldermask_Bot.gbr]
+   Generated File[Funk_Paste_Bot.gbr]
+   Generated File[Funk_Legend_Top.gbr]
+   Generated File[Funk_Paste_Top.gbr]
+   Generated File[Funk_Soldermask_Top.gbr]
+   Generated File[Funk_Mechanical_1.gbr]
+   Generated File[Funk_Profile.gbr]
+   Generated File[Funk_NPTH_Drill.gbr]
+   Generated File[Funk_PTH_Drill.gbr]
+   Generated File[Funk_Drawing_1.gbr]
+   Generated File[Funk_Drillmap_1.gbr]
+   Generated File[Funk.RUL]
+   Generated File[Funk.EXTREP]
+   Generated File[Funk.REP]
+
+
+Files Generated   : 19
+Documents Printed : 0
+
+Finished Output Generation At 16:50:07 On 13.09.2019

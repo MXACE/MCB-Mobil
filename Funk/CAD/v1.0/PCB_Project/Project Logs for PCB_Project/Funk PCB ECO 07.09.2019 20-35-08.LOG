@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=RFH Pin=J1-5
+Added Pin To Net: NetName=RFL Pin=J1-5
+Added Pin To Net: NetName=+3.3V Pin=P1-1
+Added Member To Class: ClassName=Funk Member=Component P1 Power Supply
+Added Member To Class: ClassName=Funk Member=Component P2 UART
+Change Rule Scope 1 : Old Scope=InNet('RFH') New Scope=InNet('RFL')

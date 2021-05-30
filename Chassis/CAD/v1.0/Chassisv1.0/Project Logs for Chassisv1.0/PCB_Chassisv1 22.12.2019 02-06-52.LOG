@@ -1,0 +1,40 @@
+Change Component Description : Designator=D1 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D2 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D3 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D10 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D11 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D12 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D13 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D14 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D16 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D15 Old Description=LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA New Description=
+LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA
+
+Change Component Description : Designator=D17 Old Description=LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA New Description=
+LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA
+
+Added Pin To Net: NetName=NetC51_2 Pin=CR1-7
+Added Pin To Net: NetName=NetRA2_4 Pin=U4-E
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

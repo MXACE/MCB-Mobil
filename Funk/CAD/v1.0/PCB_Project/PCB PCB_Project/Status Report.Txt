@@ -1,0 +1,35 @@
+Output: Gerber Files
+Type  : Gerber
+From  : Variant [[No Variations]] of PCB Document [Funk.PcbDoc]
+   Generated File[Funk.GTO]
+   Generated File[Funk.GTP]
+   Generated File[Funk.GTS]
+   Generated File[Funk.GTL]
+   Generated File[Funk.GBL]
+   Generated File[Funk.GBS]
+   Generated File[Funk.GBP]
+   Generated File[Funk.GBO]
+   Generated File[Funk.GM1]
+   Generated File[Funk.GM4]
+   Generated File[Funk.GM5]
+   Generated File[Funk.GM7]
+   Generated File[Funk.GM13]
+   Generated File[Funk.GM15]
+   Generated File[Funk.GM16]
+   Generated File[Funk.GM20]
+   Generated File[Funk.GKO]
+   Generated File[Funk.GPT]
+   Generated File[Funk.GPB]
+   Generated File[Funk.1]
+   Generated File[Funk.GML]
+   Generated File[Funk.GD1]
+   Generated File[Funk.GG1]
+   Generated File[Funk.RUL]
+   Generated File[Funk.EXTREP]
+   Generated File[Funk.REP]
+
+
+Files Generated   : 26
+Documents Printed : 0
+
+Finished Output Generation At 23:51:36 On 12.09.2019

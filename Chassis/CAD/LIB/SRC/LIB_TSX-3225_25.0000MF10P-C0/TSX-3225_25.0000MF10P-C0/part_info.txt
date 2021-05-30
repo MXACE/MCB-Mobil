@@ -1,0 +1,9 @@
+Manufacturer=Epson Timing
+PartNumber=TSX-3225 25.0000MF10P-C0
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2019-08-10 21:42:54
+Downloaded=2019-10-24 21:45:02
+3D=Y

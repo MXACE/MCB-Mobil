@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TSX-3225_25_0000MF10P-C0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-10-21:42:54)
+    (mountForm default
+        (footprintRef "TSX3225250000MF10PC0")
+        (spec "System")
+    )
+)

@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=M1-3.3V Pin=B4-15
+Removed Pin From Net: NetName=M1-3.3V Pin=C29-2
+Removed Pin From Net: NetName=M1-3.3V Pin=R61-2
+Removed Pin From Net: NetName=M1-3.3V Pin=R64-2
+Change Component Designator: OldDesignator=DIR NewDesignator=P16
+Change Component Designator: OldDesignator=DIR NewDesignator=P19
+Change Component Designator: OldDesignator=DIR NewDesignator=P36
+Change Component Designator: OldDesignator=DIR NewDesignator=P39
+Change Component Designator: OldDesignator=EN NewDesignator=P15
+Change Component Designator: OldDesignator=EN NewDesignator=P37
+Change Component Designator: OldDesignator=EN NewDesignator=P38
+Change Component Designator: OldDesignator=ENABLE NewDesignator=P18
+Change Component Designator: OldDesignator=FAULT NewDesignator=P20
+Change Component Designator: OldDesignator=FAULT NewDesignator=P35
+Change Component Designator: OldDesignator=FAULT NewDesignator=P40
+Change Component Designator: OldDesignator=MCO NewDesignator=P34
+Change Component Designator: OldDesignator=STEP NewDesignator=P17
+Change Component Description : Designator=D1 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D2 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D3 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D10 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D11 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D12 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D13 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D14 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D16 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D15 Old Description=LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA New Description=
+LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA
+
+Change Component Description : Designator=D17 Old Description=LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA New Description=
+LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA
+
+Added Pin To Net: NetName=NetRA2_10 Pin=U4-E
+Added Pin To Net: NetName=M4-3.3V Pin=B4-15
+Added Pin To Net: NetName=M4-3.3V Pin=C29-2
+Added Pin To Net: NetName=M4-3.3V Pin=R61-2
+Added Pin To Net: NetName=M4-3.3V Pin=R64-2
+Added Net: Name=M4-3.3V
+Added Member To Class: ClassName=uC Member=Component P19 Pad
+Added Member To Class: ClassName=uC Member=Component P35 Pad
+Added Member To Class: ClassName=uC Member=Component P36 Pad
+Added Member To Class: ClassName=uC Member=Component P37 Pad
+Added Member To Class: ClassName=uC Member=Component P38 Pad
+Added Member To Class: ClassName=uC Member=Component P39 Pad
+Added Member To Class: ClassName=uC Member=Component P40 Pad
+Added Member To Class: ClassName=Sheet1 Member=Component U4 CD74HC4050PWR
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

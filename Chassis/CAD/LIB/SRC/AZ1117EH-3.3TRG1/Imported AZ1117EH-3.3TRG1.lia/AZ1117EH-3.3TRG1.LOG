@@ -1,0 +1,29 @@
+PCAD Importer Log
+Project : AZ1117EH-3.3TRG1.LibPkg
+
+Section : D:\Onedrive\TBZ\TBZ\Projekt Horizon - Dokumente\Projekt\Chassis\CAD\LIB\SRC\AZ1117EH-3.3TRG1\AZ1117EH-3.3TRG1.lia
+    Section : PCB Library - AZ1117EH-3.3TRG1.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token AZ1117EH-3.3TRG1 On Line 145
+            Warning - 1 : Skipping Token attachedSymbol On Line 212
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - AZ1117EH-3.3TRG1.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 102
+            Warning - 1 : Skipping Token layerContents On Line 111
+            Warning - 1 : Skipping Token layerContents On Line 120
+            Warning - 1 : Skipping Token layerContents On Line 129
+        EndSection
+
+        Section : Generating SCH Library - AZ1117EH-3.3TRG1.SchLib
+        EndSection
+    EndSection
+EndSection

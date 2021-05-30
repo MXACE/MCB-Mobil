@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\Onedrive\TBZ\TBZ\Projekt Horizon - Dokumente\Projekt\Funk\CAD\v1.0\PCB_Project\Funk.PcbDoc
+LayersSetName=Top_Bot_Plated_Thru_Holes|DrillFile=funk-plated.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_NonPlated_Thru_Holes|DrillFile=funk-nonplated.txt|DrillLayers=gtl,gbl

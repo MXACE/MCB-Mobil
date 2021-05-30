@@ -1,0 +1,2 @@
+reichelt 4.71 https://www.reichelt.com/ch/de/arduino-gsm-antenne-mit-u-fl-anschluss-ard-gsm-u-fl-p230598.html?CTYPE=0&MWSTFREE=0&PROVID=2788&wt_gacha=52160633706_254281990543&PROVID=2788&gclid=Cj0KCQiAmZDxBRDIARIsABnkbYSHLBGcpTdNY3xij2BWAsKVdPN87LkEKknuBUjcuQ5-OM2VLfukZQQaAscIEALw_wcB&&r=1
+digikey 6.44 - 12.3 https://www.digikey.ch/products/de/rf-if-and-rfid/rf-antennas/875?k=antenne&k=&pkeyword=antenne&sv=0&pv589=416988&sf=1&FV=-8%7C875%2C1851%7C291943&quantity=&ColumnSort=0&page=1&stock=1&pageSize=25

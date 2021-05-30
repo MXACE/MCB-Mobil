@@ -1,0 +1,20 @@
+PCAD Importer Log
+Project : AltiumV15.LibPkg
+
+Section : D:\onedrive\TBZ\Projekt Horizon - Dokumente\Projekt\Chassis\CAD\LIB\SRC\UL_MCS1632R050FER\AltiumV15\AltiumV15.lia
+    Section : PCB Library - AltiumV15.PcbLib
+        Section : Load Messages
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - AltiumV15.SchLib
+        Section : Parsing Messages
+        EndSection
+
+        Section : Generating SCH Library - AltiumV15.SchLib
+        EndSection
+    EndSection
+EndSection

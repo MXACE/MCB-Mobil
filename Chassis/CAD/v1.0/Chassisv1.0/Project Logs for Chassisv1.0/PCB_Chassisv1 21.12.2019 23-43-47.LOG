@@ -1,0 +1,8 @@
+Added Pin To Net: NetName=GND Pin=P3-1
+Added Pin To Net: NetName=GND Pin=P6-1
+Added Pin To Net: NetName=NetRA2_4 Pin=U4-E
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

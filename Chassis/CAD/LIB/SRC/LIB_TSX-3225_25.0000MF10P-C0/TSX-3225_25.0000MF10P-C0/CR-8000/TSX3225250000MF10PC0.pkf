@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TSX3225250000MF10PC0"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TSX3225250000MF10PC0")
+        (spec "default")
+    )
+)

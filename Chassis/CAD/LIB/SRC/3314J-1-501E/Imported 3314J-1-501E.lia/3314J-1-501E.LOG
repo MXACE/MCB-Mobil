@@ -1,0 +1,29 @@
+PCAD Importer Log
+Project : 3314J-1-501E.LibPkg
+
+Section : D:\Onedrive\TBZ\TBZ\Projekt Horizon - Dokumente\Projekt\Chassis\CAD\LIB\SRC\3314J-1-501E\3314J-1-501E.lia
+    Section : PCB Library - 3314J-1-501E.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token 3314J-1-501E On Line 136
+            Warning - 1 : Skipping Token attachedSymbol On Line 193
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - 3314J-1-501E.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 101
+            Warning - 1 : Skipping Token layerContents On Line 110
+            Warning - 1 : Skipping Token layerContents On Line 119
+            Warning - 1 : Skipping Token layerContents On Line 125
+        EndSection
+
+        Section : Generating SCH Library - 3314J-1-501E.SchLib
+        EndSection
+    EndSection
+EndSection

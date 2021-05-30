@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=NetRA2_10 Pin=U4-E
+Added Pin To Net: NetName=NetRA2_10 Pin=U4-B
+Added Pin To Net: NetName=NetRA2_4 Pin=U4-E
+Added Member To Class: ClassName=uC Member=Component J13 Front-LEFT
+Added Member To Class: ClassName=Sheet1 Member=Component TB1 ARDUINO_NANO
+Added Member To Class: ClassName=PowerSupply Member=Component U8 DCDC-300W
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

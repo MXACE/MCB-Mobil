@@ -1,0 +1,48 @@
+
+--- Start of recording: 27.09.2019 11:49:33 ---
+ok                                                                              
+                                                                                
+mac pause                                                                       
+                                                                                
+invalid_param                                                                   
+                                                                                
+mac pause                                                                       
+                                                                                
+4294967245                                                                      
+                                                                                
+radio rx 0                                                                      
+                                                                                
+ok                                                                              
+                                                                                
+radio_rx  48656C6C6F                                                            
+                                                                                
+radio rx 0                                                                      
+                                                                                
+ok                                                                              
+                                                                                
+radio_rx  123456                                                                
+                                                                                
+radio rx 0                                                                      
+                                                                                
+ok                                                                              
+                                                                                
+radio_rx  0987654321                                                            
+                                                                                
+radio rx 0                                                                      
+                                                                                
+ok                                                                              
+                                                                                
+radio rx 0                                                                      
+                                                                                
+busy                                                                            
+                                                                                
+radio rx 0                                                                      
+                                                                                
+ok                                                                              
+                                                                                
+radio rx 0                                                                      
+                                                                                
+ok                                                                              
+                                                                                
+                                                                                
+--- End of recording: 27.09.2019 11:51:08 ---

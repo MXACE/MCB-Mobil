@@ -1,0 +1,77 @@
+Protel Design System Design Rule Check
+PCB File : D:\onedrive\TBZ\Projekt Horizon - Dokumente\Projekt\Funk\CAD\v1.0\PCB_Project\Funk.PcbDoc
+Date     : 13.09.2019
+Time     : 16:01:01
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk'))
+   Violation between Room Definition: Between Component MODULE1-RN2483-I/RM095 (50.673mm,64.897mm) on Top Layer And Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SIP Component J3-UJ2-MABH-4-SMT (68.082mm,36.038mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SIP Component P3-UART (77.437mm,40.894mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SIP Component P4-ICSP PICkit 3 (56.896mm,42.418mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SIP Component P5-GPIO Pins 1 (34.036mm,51.181mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SIP Component P7-GPIO Pins 2 (77.437mm,56.134mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And Small Component P1-Power Supply Pin (34.036mm,41.021mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And Small Component P2-Power Supply Conn. (33.274mm,32.131mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And Small Component P6-GPIO Pins 1.1 (34.036mm,46.101mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component C1-1uF (63.754mm,38.735mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component C2-1uF (62.992mm,44.45mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component C3-100nF (38.862mm,69.915mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component C4-100nF (62.992mm,66.167mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component C5-100nF (73.152mm,41.402mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component C6-100nF (73.152mm,42.672mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component C7-10uF (68.961mm,40.005mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component D1-Grün (60.833mm,29.845mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component D2-Grün (51.943mm,29.845mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component D3-Orange (56.388mm,29.845mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component D4-Orange (43.688mm,29.972mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component D5-Grün (47.498mm,29.884mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component P8-Hirose U.FL-R-SMT-1(10) (60.755mm,88.265mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component P9-Hirose U.FL-R-SMT-1(10) (40.689mm,88.265mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component R1-10 (58.674mm,29.845mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component R2-10k (62.992mm,46.609mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component R3-10 (63.754mm,54.102mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component R4-330 (41.783mm,29.845mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component R5-330 (45.593mm,29.972mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component R6-1000 (49.784mm,29.718mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component R7-1000 (54.229mm,29.845mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SMT Small Component U1-Part Number: AP2120N-3.3TRG1 (63.754mm,41.529mm) on Top Layer 
+   Violation between Room Definition: Between Room Funk (Bounding Region = (0mm, 0mm, 50.8mm, 25.4mm) (InComponentClass('Funk')) And SOIC Component IC1-FT232RL-TUBE (69.569mm,49.765mm) on Top Layer 
+Rule Violations :32
+
+Processing Rule : Height Constraint (Min=0mm) (Max=50mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 32
+Waived Violations : 0
+Time Elapsed        : 00:00:00

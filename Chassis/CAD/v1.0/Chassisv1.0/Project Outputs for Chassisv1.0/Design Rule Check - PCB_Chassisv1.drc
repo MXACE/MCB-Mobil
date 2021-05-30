@@ -1,0 +1,59 @@
+Protel Design System Design Rule Check
+PCB File : D:\Onedrive\TBZ\TBZ\Projekt Horizon - Dokumente\Projekt\Chassis\CAD\v1.0\Chassisv1.0\PCB_Chassisv1.0.PcbDoc
+Date     : 24.12.2020
+Time     : 18:55:59
+
+Processing Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.127mm) (Max=10mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.3mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=100mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+Waived Violations Of Rule : Clearance Constraint (Gap=0.127mm) (All),(All)
+   Waived Violation between Clearance Constraint: (0mm < 0.127mm) Between Pad Q1-10(81.42mm,40.672mm) on Top Layer And Pad Q1-5(81.252mm,41.052mm) on Top Layer Waived by Marco Stauber at 23.12.2019 21:45:11
+   Waived Violation between Clearance Constraint: (0mm < 0.127mm) Between Pad Q1-11(79.108mm,40.672mm) on Top Layer And Pad Q1-8(79.272mm,41.052mm) on Top Layer Waived by Marco Stauber at 23.12.2019 21:45:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Q1-5(81.252mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Waived by Marco Stauber at 23.12.2019 21:43:38
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Q1-6(80.592mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Waived by Marco Stauber at 23.12.2019 21:43:26
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Q1-7(79.932mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Waived by Marco Stauber at 23.12.2019 21:43:23
+   Waived Violation between Clearance Constraint: (Collision < 0.127mm) Between Pad Q1-8(79.272mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Waived by Marco Stauber at 23.12.2019 21:43:20
+Waived Violations :6
+
+Waived Violations Of Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Waived Violation between Short-Circuit Constraint: Between Pad Q1-5(81.252mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Location : [X = 81.214mm][Y = 40.797mm]Waived by Marco Stauber at 23.12.2019 21:43:39
+   Waived Violation between Short-Circuit Constraint: Between Pad Q1-6(80.592mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Location : [X = 80.592mm][Y = 40.797mm]Waived by Marco Stauber at 23.12.2019 21:43:28
+   Waived Violation between Short-Circuit Constraint: Between Pad Q1-7(79.932mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Location : [X = 79.932mm][Y = 40.797mm]Waived by Marco Stauber at 23.12.2019 21:43:24
+   Waived Violation between Short-Circuit Constraint: Between Pad Q1-8(79.272mm,41.052mm) on Top Layer And Pad Q1-9(80.262mm,39.935mm) on Top Layer Location : [X = 79.31mm][Y = 40.797mm]Waived by Marco Stauber at 23.12.2019 21:43:22
+Waived Violations :4
+
+Waived Violations Of Rule : Un-Routed Net Constraint ( (All) )
+   Waived Violation between Un-Routed Net Constraint: Net NetP9_1 Between Track (142.105mm,130.048mm)(142.494mm,130.048mm) on Top Layer And Track (142.789mm,129.819mm)(155.423mm,129.819mm) on Top Layer Waived by Marco Stauber at 30.12.2019 00:45:25
+Waived Violations :1
+
+
+Violations Detected : 0
+Waived Violations : 11
+Time Elapsed        : 00:00:01

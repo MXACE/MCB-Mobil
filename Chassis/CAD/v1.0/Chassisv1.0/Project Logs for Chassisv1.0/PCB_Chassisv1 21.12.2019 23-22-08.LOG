@@ -1,0 +1,416 @@
+Removed Pin From Net: NetName=NetR38_1 Pin=R38-1
+Removed Pin From Net: NetName=+5 Pin=R38-2
+Removed Pin From Net: NetName=NetJ5_3 Pin=U8-23
+Removed Pin From Net: NetName=NetU5_13 Pin=W1-1
+Removed Pin From Net: NetName=+5 Pin=W1-2
+Removed Pin From Net: NetName=NetU5_13 Pin=W2-1
+Removed Pin From Net: NetName=GND Pin=W2-2
+Removed Member From Class: ClassName=Sheet1 Member=W1
+Removed Member From Class: ClassName=Sheet1 Member=W2
+Change Component Designator: OldDesignator=P11 NewDesignator=P17
+Change Component Designator: OldDesignator=P12 NewDesignator=P26
+Change Component Designator: OldDesignator=P13 NewDesignator=P37
+Change Component Designator: OldDesignator=P14 NewDesignator=P38
+Change Component Designator: OldDesignator=P15 NewDesignator=P39
+Change Component Designator: OldDesignator=R39 NewDesignator=R38
+Change Component Designator: OldDesignator=R40 NewDesignator=R39
+Change Component Designator: OldDesignator=R43 NewDesignator=R44
+Change Component Designator: OldDesignator=R44 NewDesignator=R45
+Change Component Designator: OldDesignator=R45 NewDesignator=R46
+Change Component Designator: OldDesignator=R46 NewDesignator=R47
+Change Component Designator: OldDesignator=R47 NewDesignator=R48
+Change Component Designator: OldDesignator=R48 NewDesignator=R49
+Change Component Designator: OldDesignator=R49 NewDesignator=R50
+Change Component Designator: OldDesignator=R50 NewDesignator=R51
+Change Component Designator: OldDesignator=R51 NewDesignator=R52
+Change Component Designator: OldDesignator=R52 NewDesignator=R53
+Change Component Designator: OldDesignator=R53 NewDesignator=R54
+Change Component Designator: OldDesignator=R54 NewDesignator=R55
+Change Component Designator: OldDesignator=R55 NewDesignator=R56
+Change Component Designator: OldDesignator=R56 NewDesignator=R57
+Change Component Designator: OldDesignator=R57 NewDesignator=R58
+Change Component Designator: OldDesignator=R58 NewDesignator=R59
+Change Component Designator: OldDesignator=R59 NewDesignator=R60
+Change Component Designator: OldDesignator=R60 NewDesignator=R61
+Change Component Designator: OldDesignator=R61 NewDesignator=R62
+Change Component Designator: OldDesignator=R62 NewDesignator=R63
+Change Component Designator: OldDesignator=R63 NewDesignator=R64
+Change Component Designator: OldDesignator=R64 NewDesignator=R65
+Change Component Designator: OldDesignator=R65 NewDesignator=R66
+Change Component Designator: OldDesignator=R66 NewDesignator=R67
+Change Component Designator: OldDesignator=R67 NewDesignator=R68
+Change Component Designator: OldDesignator=R68 NewDesignator=R69
+Change Component Designator: OldDesignator=R69 NewDesignator=R70
+Change Component Designator: OldDesignator=R70 NewDesignator=R71
+Change Component Designator: OldDesignator=R71 NewDesignator=R72
+Change Component Designator: OldDesignator=R72 NewDesignator=R73
+Change Component Designator: OldDesignator=R73 NewDesignator=R74
+Change Component Designator: OldDesignator=R74 NewDesignator=R75
+Change Component Designator: OldDesignator=R75 NewDesignator=R76
+Change Component Designator: OldDesignator=R76 NewDesignator=R77
+Change Component Designator: OldDesignator=R77 NewDesignator=R78
+Change Component Designator: OldDesignator=R78 NewDesignator=R79
+Change Component Designator: OldDesignator=R79 NewDesignator=R80
+Change Component Designator: OldDesignator=R80 NewDesignator=R81
+Change Component Designator: OldDesignator=R81 NewDesignator=R82
+Change Component Designator: OldDesignator=R82 NewDesignator=R83
+Change Component Designator: OldDesignator=R83 NewDesignator=R84
+Change Component Designator: OldDesignator=R84 NewDesignator=R85
+Change Component Designator: OldDesignator=R85 NewDesignator=R86
+Change Component Designator: OldDesignator=R86 NewDesignator=R87
+Change Component Designator: OldDesignator=R87 NewDesignator=R88
+Change Component Designator: OldDesignator=R88 NewDesignator=R89
+Change Component Designator: OldDesignator=R89 NewDesignator=R90
+Change Component Designator: OldDesignator=R90 NewDesignator=R91
+Change Component Designator: OldDesignator=R91 NewDesignator=R92
+Change Component Designator: OldDesignator=R92 NewDesignator=R93
+Change Component Designator: OldDesignator=R93 NewDesignator=R94
+Change Component Designator: OldDesignator=R94 NewDesignator=R95
+Change Component Designator: OldDesignator=R95 NewDesignator=R96
+Change Component Designator: OldDesignator=R96 NewDesignator=R97
+Added Component: Designator=P11(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P12(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P13(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P14(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P15(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P16(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P18(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P19(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P20(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P21(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P22(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P23(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P24(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P25(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P27(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P28(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P29(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P30(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P31(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P32(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P33(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P34(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P35(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P36(PIN1)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R40(RES_0603i_1608m -N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R43(RES_0603i_1608m -N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetB1_21 Pin=P14-1
+Added Pin To Net: NetName=NetB1_20 Pin=P15-1
+Added Pin To Net: NetName=NetB1_18 Pin=P16-1
+Added Pin To Net: NetName=NetR6_2 Pin=P18-1
+Added Pin To Net: NetName=NetR7_2 Pin=P19-1
+Added Pin To Net: NetName=NetR8_2 Pin=P20-1
+Added Pin To Net: NetName=NetR9_2 Pin=P21-1
+Added Pin To Net: NetName=NetR10_2 Pin=P22-1
+Added Pin To Net: NetName=NetR11_1 Pin=P23-1
+Added Pin To Net: NetName=NetB2_21 Pin=P24-1
+Added Pin To Net: NetName=NetB2_20 Pin=P25-1
+Added Pin To Net: NetName=NetR4_2 Pin=P27-1
+Added Pin To Net: NetName=NetB2_18 Pin=P28-1
+Added Pin To Net: NetName=NetJ4_3 Pin=P29-1
+Added Pin To Net: NetName=NetU8_67 Pin=P30-1
+Added Pin To Net: NetName=NetB4_18 Pin=P31-1
+Added Pin To Net: NetName=NetB4_20 Pin=P32-1
+Added Pin To Net: NetName=NetB4_21 Pin=P33-1
+Added Pin To Net: NetName=NetB3_21 Pin=P34-1
+Added Pin To Net: NetName=NetB3_20 Pin=P35-1
+Added Pin To Net: NetName=NetB3_18 Pin=P36-1
+Added Pin To Net: NetName=NetU5_13 Pin=R40-1
+Added Pin To Net: NetName=+5 Pin=R40-2
+Added Pin To Net: NetName=NetU5_13 Pin=R43-1
+Added Pin To Net: NetName=GND Pin=R43-2
+Added Pin To Net: NetName=NetRA2_4 Pin=U6-E
+Added Pin To Net: NetName=NetU7_6 Pin=U8-23
+Added Pin To Net: NetName=NetU7_1 Pin=U8-81
+Added Pin To Net: NetName=NetU7_2 Pin=U8-82
+Added Pin To Net: NetName=NetU7_3 Pin=U8-83
+Added Pin To Net: NetName=NetU7_4 Pin=U8-84
+Added Pin To Net: NetName=NetU7_5 Pin=U8-85
+Change Net Name : Old Net Name=NetP11_1 New Net Name=NetP17_1
+Change Net Name : Old Net Name=NetP11_2 New Net Name=NetP17_2
+Change Net Name : Old Net Name=NetP12_3 New Net Name=NetP26_3
+Change Net Name : Old Net Name=NetP12_5 New Net Name=NetP26_5
+Change Net Name : Old Net Name=NetP12_11 New Net Name=NetP26_11
+Change Net Name : Old Net Name=NetP12_13 New Net Name=NetP26_13
+Change Net Name : Old Net Name=NetP12_17 New Net Name=NetP26_17
+Change Net Name : Old Net Name=NetP12_19 New Net Name=NetP26_19
+Change Net Name : Old Net Name=NetP13_3 New Net Name=NetP37_3
+Change Net Name : Old Net Name=NetP13_4 New Net Name=NetP37_4
+Change Net Name : Old Net Name=NetP14_2 New Net Name=NetP38_2
+Change Net Name : Old Net Name=NetP14_3 New Net Name=NetP38_3
+Change Net Name : Old Net Name=NetP14_4 New Net Name=NetP38_4
+Change Net Name : Old Net Name=NetR4_2 New Net Name=NetP27_1
+Change Net Name : Old Net Name=NetR6_2 New Net Name=NetP18_1
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetP19_1
+Change Net Name : Old Net Name=NetR8_2 New Net Name=NetP20_1
+Change Net Name : Old Net Name=NetR9_2 New Net Name=NetP21_1
+Change Net Name : Old Net Name=NetR10_2 New Net Name=NetP22_1
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetP23_1
+Change Net Name : Old Net Name=NetR38_1 New Net Name=NetU5_14
+Change Net Name : Old Net Name=NetR43_1 New Net Name=NetR44_1
+Change Net Name : Old Net Name=NetR43_2 New Net Name=NetR44_2
+Change Net Name : Old Net Name=NetR69_1 New Net Name=NetR70_1
+Change Net Name : Old Net Name=NetR78_2 New Net Name=NetR79_2
+Change Net Name : Old Net Name=NetU5_13 New Net Name=NetR40_1
+Change Net Name : Old Net Name=NetU8_67 New Net Name=NetP30_1
+Added Member To Class: ClassName=uC Member=Component P13 Pad
+Added Member To Class: ClassName=uC Member=Component P14 Pad
+Added Member To Class: ClassName=uC Member=Component P15 Pad
+Added Member To Class: ClassName=uC Member=Component P16 Pad
+Added Member To Class: ClassName=uC Member=Component P17 Header 2
+Added Member To Class: ClassName=uC Member=Component P18 Pad
+Added Member To Class: ClassName=uC Member=Component P19 Pad
+Added Member To Class: ClassName=uC Member=Component P20 Pad
+Added Member To Class: ClassName=uC Member=Component P21 Pad
+Added Member To Class: ClassName=uC Member=Component P22 Pad
+Added Member To Class: ClassName=uC Member=Component P23 Pad
+Added Member To Class: ClassName=uC Member=Component P24 Pad
+Added Member To Class: ClassName=uC Member=Component P25 Pad
+Added Member To Class: ClassName=uC Member=Component P26 IDC-20
+Added Member To Class: ClassName=uC Member=Component P27 Pad
+Added Member To Class: ClassName=uC Member=Component P28 Pad
+Added Member To Class: ClassName=uC Member=Component P29 Pad
+Added Member To Class: ClassName=uC Member=Component P30 Pad
+Added Member To Class: ClassName=uC Member=Component P31 Pad
+Added Member To Class: ClassName=uC Member=Component P32 Pad
+Added Member To Class: ClassName=uC Member=Component P33 Pad
+Added Member To Class: ClassName=uC Member=Component P34 Pad
+Added Member To Class: ClassName=uC Member=Component P35 Pad
+Added Member To Class: ClassName=uC Member=Component P36 Pad
+Added Member To Class: ClassName=Sheet1 Member=Component R44 1k

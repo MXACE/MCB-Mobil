@@ -1,0 +1,12 @@
+Removed Member From Class: ClassName=uC Member=U4
+Added Component: Designator=U8(DCDC-300W)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U9(DCDC-300W)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetRA2_10 Pin=U4-E
+Added Member To Class: ClassName=PowerSupply Member=Component U1 Part Number: MMBT3904-7-F
+Added Member To Class: ClassName=PowerSupply Member=Component U2 AZ1117EH-3.3TRG1
+Added Member To Class: ClassName=Sheet1 Member=Component U3 A4988SETTR-T
+Added Member To Class: ClassName=uC Member=Component U6 STM32F107VCT6
+Added Member To Class: ClassName=PowerSupply Member=Component U8 DCDC-300W
+Added Member To Class: ClassName=PowerSupply Member=Component U9 DCDC-300W

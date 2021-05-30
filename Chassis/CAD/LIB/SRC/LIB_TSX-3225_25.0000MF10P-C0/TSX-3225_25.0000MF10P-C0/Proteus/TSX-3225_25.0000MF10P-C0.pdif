@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TSX-3225_25.0000MF10P-C0"
+   (description "Crystals 25MHz 10ppm 18pF -20C +85C")
+   (family "OSC")
+   (package "TSX3225250000MF10PC0")
+   (attribute "Datasheet Link" "https://support.epson.biz/td/api/doc_check.php?dl=brief_TSX-3225&lang=en")
+   (attribute "Geometry.Height" "0.6mm")
+   (attribute "Manufacturer_Name" "Epson Timing")
+   (attribute "Manufacturer_Part_Number" "TSX-3225 25.0000MF10P-C0")
+   (attribute "Mouser Part Number" "732-322525F10PC0")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=732-322525F10PC0")
+   (attribute "RS Part Number" "")
+   (attribute "RS Price/Stock" "")
+   (gate
+    (symbol "TSX-3225_25.0000MF10P-C0")
+    (pin "CRYSTAL_1" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "CRYSTAL_2" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "TSX-3225_25.0000MF10P-C0"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TSX3225250000MF10PC0"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 1.25)
+      (pt 1.6 1.25)
+      (pt 1.6 -1.25)
+      (pt -1.6 -1.25)
+      (pt -1.6 1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 2.375)
+      (pt 2.8 2.375)
+      (pt 2.8 -2.8)
+      (pt -2.8 -2.8)
+      (pt -2.8 2.375))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 0 1.25)
+      (pt 0 -1.25)
+      (pt 0 1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.2 -1.8)
+      (arc (pt -1.200 -1.800) (pt -1.250 -1.800) (pt -1.150 -1.700) (start 180.0) (sweep -90.0))
+      (pt -1.2 -1.7)
+      (arc (pt -1.200 -1.700) (pt -1.250 -1.800) (pt -1.150 -1.700) (start 180.0) (sweep 90.0))
+      (pt -1.2 -1.8))))
+   (leg 1 (pt -1.100 -0.800) (padstack 0))
+   (leg 2 (pt 1.100 -0.800) (padstack 0))
+   (leg 3 (pt 1.100 0.800) (padstack 0))
+   (leg 4 (pt -1.100 0.800) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.150 1.400 0 0 0.000))
+   )
+   (model "TSX-3225_25.0000MF10P-C0.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+5 Pin=C36-2
+Removed Pin From Net: NetName=+5 Pin=C37-2
+Removed Pin From Net: NetName=+5 Pin=C38-2
+Removed Pin From Net: NetName=+5 Pin=C39-2
+Removed Pin From Net: NetName=+5 Pin=C40-2
+Added Pin To Net: NetName=+3.3 Pin=C36-2
+Added Pin To Net: NetName=+3.3 Pin=C37-2
+Added Pin To Net: NetName=+3.3 Pin=C38-2
+Added Pin To Net: NetName=+3.3 Pin=C39-2
+Added Pin To Net: NetName=+3.3 Pin=C40-2
+Added Pin To Net: NetName=NetRA2_10 Pin=U4-E
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

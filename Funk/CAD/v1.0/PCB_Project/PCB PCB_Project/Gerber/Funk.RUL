@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: D:\Onedrive\TBZ\TBZ\Projekt Horizon - Dokumente\Projekt\Funk\CAD\v1.0\PCB_Project\Funk.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=5.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

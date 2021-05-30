@@ -1,0 +1,87 @@
+Removed Pin From Net: NetName=NetMODULE1_35 Pin=P4-1
+Removed Pin From Net: NetName=NetMODULE1_36 Pin=P4-2
+Removed Pin From Net: NetName=NetMODULE1_37 Pin=P4-3
+Removed Pin From Net: NetName=NetMODULE1_38 Pin=P4-4
+Removed Pin From Net: NetName=NetMODULE1_39 Pin=P4-5
+Removed Pin From Net: NetName=NetMODULE1_40 Pin=P4-6
+Removed Pin From Net: NetName=NetMODULE1_43 Pin=P4-7
+Removed Pin From Net: NetName=NetMODULE1_44 Pin=P4-8
+Removed Pin From Net: NetName=NetMODULE1_45 Pin=P4-9
+Removed Pin From Net: NetName=NetMODULE1_46 Pin=P4-10
+Removed Pin From Net: NetName=NetMODULE1_10 Pin=P4-11
+Removed Pin From Net: NetName=NetMODULE1_9 Pin=P4-12
+Removed Pin From Net: NetName=RES2 Pin=P4-13
+Removed Pin From Net: NetName=RES1 Pin=P4-14
+Removed Member From Class: ClassName=Funk Member=P4
+Change Component Comment : Designator=P1 Old Comment=Power Supply New Comment=Power Supply Conn.
+Change Component Description : Designator=D2 Old Description=LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA New Description=
+LED; SMD; 0603; gr�n; 35mcd; 1.6x0.8x0.55mm; 130°; 2÷2.V; 20mA
+
+Change Component Description : Designator=D1 Old Description=LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA New Description=
+LED; SMD; 0603; orange; 45-90mcd; 1.6x0.8x0.55mm; 130°; 2÷2.4V; 20mA
+
+Added Component: Designator=P?(HDR1X8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P?(HDR1X8)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P?(HDR1X2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P?(2mm hdr 10x)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=P?-1
+Added Pin To Net: NetName=NetMODULE1_44 Pin=P?-1
+Added Pin To Net: NetName=RES1 Pin=P?-1
+Added Pin To Net: NetName=GND Pin=P?-2
+Added Pin To Net: NetName=NetMODULE1_43 Pin=P?-2
+Added Pin To Net: NetName=RES2 Pin=P?-2
+Added Pin To Net: NetName=NetMODULE1_9 Pin=P?-3
+Added Pin To Net: NetName=NetMODULE1_40 Pin=P?-3
+Added Pin To Net: NetName=NetMODULE1_10 Pin=P?-4
+Added Pin To Net: NetName=NetMODULE1_39 Pin=P?-4
+Added Pin To Net: NetName=LEDG Pin=P?-5
+Added Pin To Net: NetName=NetMODULE1_38 Pin=P?-5
+Added Pin To Net: NetName=LEDO Pin=P?-6
+Added Pin To Net: NetName=NetMODULE1_37 Pin=P?-6
+Added Pin To Net: NetName=NetMODULE1_36 Pin=P?-7
+Added Pin To Net: NetName=NetMODULE1_46 Pin=P?-7
+Added Pin To Net: NetName=NetMODULE1_35 Pin=P?-8
+Added Pin To Net: NetName=NetMODULE1_45 Pin=P?-8
+Added Member To Class: ClassName=Funk Member=Component P1 Power Supply Conn.
+Added Member To Class: ClassName=Funk Member=Component P2 UART
+Added Member To Class: ClassName=Funk Member=Component P? GPIO Pin 1
+Added Member To Class: ClassName=Funk Member=Component P? GPIO Pin 2
+Added Member To Class: ClassName=Funk Member=Component P? Power Supply Pin
+Added Member To Class: ClassName=Funk Member=Component P? 10
+Added Room: Name=Funk

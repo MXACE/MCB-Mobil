@@ -1,0 +1,171 @@
+Removed Pin From Net: NetName=VCC Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-2
+Removed Pin From Net: NetName=+12 Pin=U1-3
+Removed Pin From Net: NetName=GND Pin=U1-4
+Removed Pin From Net: NetName=VCC-BATT Pin=U2-1
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=+5 Pin=U2-3
+Removed Pin From Net: NetName=GND Pin=U2-4
+Removed Member From Class: ClassName=Sheet1 Member=R46
+Removed Member From Class: ClassName=uC Member=R82
+Change Component Comment : Designator=U2 Old Comment=DCDC-5V New Comment=DCDC-300W
+Change Component Comment : Designator=U1 Old Comment=DCDC-12V New Comment=DCDC-300W
+Change Component Designator: OldDesignator=P2 NewDesignator=P4
+Change Component Designator: OldDesignator=P3 NewDesignator=P7
+Change Component Designator: OldDesignator=P4 NewDesignator=P8
+Change Component Designator: OldDesignator=P5 NewDesignator=P9
+Change Component Designator: OldDesignator=P6 NewDesignator=P10
+Change Component Designator: OldDesignator=P7 NewDesignator=P11
+Change Component Designator: OldDesignator=P8 NewDesignator=P12
+Change Component Designator: OldDesignator=P9 NewDesignator=P13
+Change Component Designator: OldDesignator=P10 NewDesignator=P14
+Change Component Designator: OldDesignator=P11 NewDesignator=P15
+Change Component Designator: OldDesignator=P12 NewDesignator=P16
+Change Component Designator: OldDesignator=P13 NewDesignator=P17
+Change Component Designator: OldDesignator=P14 NewDesignator=P18
+Change Component Designator: OldDesignator=P15 NewDesignator=P19
+Change Component Designator: OldDesignator=P16 NewDesignator=P20
+Change Component Designator: OldDesignator=P17 NewDesignator=P21
+Change Component Designator: OldDesignator=P18 NewDesignator=P22
+Change Component Designator: OldDesignator=P19 NewDesignator=P23
+Change Component Designator: OldDesignator=P20 NewDesignator=P24
+Change Component Designator: OldDesignator=P21 NewDesignator=P25
+Change Component Designator: OldDesignator=P22 NewDesignator=P26
+Change Component Designator: OldDesignator=P23 NewDesignator=P27
+Change Component Designator: OldDesignator=P24 NewDesignator=P28
+Change Component Designator: OldDesignator=P25 NewDesignator=P29
+Change Component Designator: OldDesignator=P26 NewDesignator=P30
+Change Component Designator: OldDesignator=P27 NewDesignator=P31
+Change Component Designator: OldDesignator=P28 NewDesignator=P32
+Change Component Designator: OldDesignator=P29 NewDesignator=P33
+Change Component Designator: OldDesignator=P30 NewDesignator=P34
+Change Component Designator: OldDesignator=P31 NewDesignator=P35
+Change Component Designator: OldDesignator=P32 NewDesignator=P36
+Change Component Designator: OldDesignator=P33 NewDesignator=P37
+Change Component Designator: OldDesignator=P34 NewDesignator=P38
+Change Component Designator: OldDesignator=P35 NewDesignator=P39
+Change Component Designator: OldDesignator=P36 NewDesignator=P40
+Change Component Designator: OldDesignator=P37 NewDesignator=P41
+Change Component Designator: OldDesignator=P38 NewDesignator=P42
+Change Component Designator: OldDesignator=P39 NewDesignator=P43
+Added Component: Designator=P2(3.5MM Phoenix Contact 1984617)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P3(3.5MM Phoenix Contact 1984617)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P5(3.5MM Phoenix Contact 1984617)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P6(3.5MM Phoenix Contact 1984617)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=P2-1
+Added Pin To Net: NetName=GND Pin=P2-2
+Added Pin To Net: NetName=+12 Pin=P3-2
+Added Pin To Net: NetName=VCC-BATT Pin=P5-1
+Added Pin To Net: NetName=GND Pin=P5-2
+Added Pin To Net: NetName=+5 Pin=P6-2
+Added Pin To Net: NetName=NetRA2_10 Pin=U6-E
+Change Net Name : Old Net Name=NetP3_1 New Net Name=NetP7_1
+Change Net Name : Old Net Name=NetP3_2 New Net Name=NetP7_2
+Change Net Name : Old Net Name=NetP3_3 New Net Name=NetP7_3
+Change Net Name : Old Net Name=NetP3_4 New Net Name=NetP7_4
+Change Net Name : Old Net Name=NetP3_5 New Net Name=NetP7_5
+Change Net Name : Old Net Name=NetP3_6 New Net Name=NetP7_6
+Change Net Name : Old Net Name=NetP3_7 New Net Name=NetP7_7
+Change Net Name : Old Net Name=NetP3_8 New Net Name=NetP7_8
+Change Net Name : Old Net Name=NetP4_7 New Net Name=NetP8_7
+Change Net Name : Old Net Name=NetP5_1 New Net Name=NetP9_1
+Change Net Name : Old Net Name=NetP5_2 New Net Name=NetP9_2
+Change Net Name : Old Net Name=NetP6_1 New Net Name=NetP10_1
+Change Net Name : Old Net Name=NetP6_2 New Net Name=NetP10_2
+Change Net Name : Old Net Name=NetP17_1 New Net Name=NetP21_1
+Change Net Name : Old Net Name=NetP17_2 New Net Name=NetP21_2
+Change Net Name : Old Net Name=NetP18_1 New Net Name=NetP22_1
+Change Net Name : Old Net Name=NetP19_1 New Net Name=NetP23_1
+Change Net Name : Old Net Name=NetP20_1 New Net Name=NetP24_1
+Change Net Name : Old Net Name=NetP21_1 New Net Name=NetP25_1
+Change Net Name : Old Net Name=NetP22_1 New Net Name=NetP26_1
+Change Net Name : Old Net Name=NetP23_1 New Net Name=NetP27_1
+Change Net Name : Old Net Name=NetP26_3 New Net Name=NetP30_3
+Change Net Name : Old Net Name=NetP26_5 New Net Name=NetP30_5
+Change Net Name : Old Net Name=NetP26_11 New Net Name=NetP30_11
+Change Net Name : Old Net Name=NetP26_13 New Net Name=NetP30_13
+Change Net Name : Old Net Name=NetP26_17 New Net Name=NetP30_17
+Change Net Name : Old Net Name=NetP26_19 New Net Name=NetP30_19
+Change Net Name : Old Net Name=NetP27_1 New Net Name=NetP31_1
+Change Net Name : Old Net Name=NetP30_1 New Net Name=NetP34_1
+Change Net Name : Old Net Name=NetP37_3 New Net Name=NetP41_3
+Change Net Name : Old Net Name=NetP37_4 New Net Name=NetP41_4
+Change Net Name : Old Net Name=NetP38_2 New Net Name=NetP42_2
+Change Net Name : Old Net Name=NetP38_3 New Net Name=NetP42_3
+Change Net Name : Old Net Name=NetP38_4 New Net Name=NetP42_4
+Added Pin To Net: NetName=NetP3_1 Pin=P3-1
+Added Pin To Net: NetName=NetP3_1 Pin=P6-1
+Added Net: Name=NetP3_1
+Added Member To Class: ClassName=PowerSupply Member=Component P3 Header 2
+Added Member To Class: ClassName=PowerSupply Member=Component P4 Battery -
+Added Member To Class: ClassName=PowerSupply Member=Component P5 Header 2
+Added Member To Class: ClassName=PowerSupply Member=Component P6 Header 2
+Added Member To Class: ClassName=uC Member=Component P15 Pad
+Added Member To Class: ClassName=uC Member=Component P40 Pad
+Added Member To Class: ClassName=Sheet1 Member=Component R38 NP
+Added Member To Class: ClassName=Sheet1 Member=Component R40 NP
+Added Member To Class: ClassName=Sheet1 Member=Component R43 0
+Added Member To Class: ClassName=MotorDriver Member=Component R45 1M
+Added Member To Class: ClassName=MotorDriver Member=Component R48 100k
+Added Member To Class: ClassName=MotorDriver Member=Component R49 10k
+Added Member To Class: ClassName=MotorDriver Member=Component R51 3k
+Added Member To Class: ClassName=MotorDriver Member=Component R54 50m
+Added Member To Class: ClassName=MotorDriver Member=Component R57 1M
+Added Member To Class: ClassName=MotorDriver Member=Component R59 100k
+Added Member To Class: ClassName=MotorDriver Member=Component R61 100k
+Added Member To Class: ClassName=MotorDriver Member=Component R63 3k
+Added Member To Class: ClassName=MotorDriver Member=Component R66 50m
+Added Member To Class: ClassName=uC Member=Component R69 10k
+Added Member To Class: ClassName=uC Member=Component R71 10K
+Added Member To Class: ClassName=uC Member=Component R73 10K
+Added Member To Class: ClassName=uC Member=Component R75 10K
+Added Member To Class: ClassName=uC Member=Component R76 10K
+Added Member To Class: ClassName=uC Member=Component R79 10
+Added Member To Class: ClassName=uC Member=Component R81 1k
+Added Member To Class: ClassName=Bootloader Member=Component R84 22
+Added Member To Class: ClassName=Bootloader Member=Component R87 22
+Added Member To Class: ClassName=Bootloader Member=Component R89 220
+Added Member To Class: ClassName=Bootloader Member=Component R91 100k
+Added Member To Class: ClassName=Bootloader Member=Component R93 10k
+Added Member To Class: ClassName=Bootloader Member=Component R95 1k
+Added Room: Name=Bootloader
+Added Room: Name=MotorDriver
+Added Room: Name=PowerSupply
+Added Room: Name=Sheet1
+Added Room: Name=uC

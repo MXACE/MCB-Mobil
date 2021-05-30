@@ -1,0 +1,10 @@
+Output: Mixed Sim
+Type  : AdvSimNetlist
+From  : Project [Chassisv1.0.PrjPcb]
+   Generated File[Chassisv1.nsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 08:20:10 On 30.10.2019

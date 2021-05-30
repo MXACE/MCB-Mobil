@@ -1,0 +1,184 @@
+Added Component: Designator=D?(*0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "160-1445-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C191KFKT/160-1445-1-ND/386832?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "LTST-C191KFKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 Lite-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LTST-C191KFKT/Lite-On%20Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D?(*0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Digi-Key_Part_Number"; Value = "160-1446-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Digi-Key_Purchase_URL"; Value = "https://www.digikey.ch/product-detail/de/lite-on-inc/LTST-C191KGKT/160-1446-1-ND/386834"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "LTST-C191KGKT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603 Lite-On"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/LTST-C191KFKT/Lite-On%20Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=MODULE?(*MICROCHIP_RN2483-I/RM095)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RN2483-I/RM095"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/RN2483-I/RM095/Microchip/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P?(HDR1X15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P?(HDR1X5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=P?(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES_0603i_1608m -N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES_0603i_1608m -N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R?(RES_0603_1608m -L)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3.3V Pin=MODULE?-12
+Added Pin To Net: NetName=+3.3V Pin=MODULE?-34
+Added Pin To Net: NetName=+3.3V Pin=P?-2
+Added Pin To Net: NetName=+3.3V Pin=R?-1
+Added Net: Name=+3.3V
+Added Pin To Net: NetName=CTS Pin=MODULE?-3
+Added Pin To Net: NetName=CTS Pin=P?-2
+Added Net: Name=CTS
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=D?-1
+Added Pin To Net: NetName=GND Pin=MODULE?-1
+Added Pin To Net: NetName=GND Pin=MODULE?-8
+Added Pin To Net: NetName=GND Pin=MODULE?-11
+Added Pin To Net: NetName=GND Pin=MODULE?-20
+Added Pin To Net: NetName=GND Pin=MODULE?-21
+Added Pin To Net: NetName=GND Pin=MODULE?-22
+Added Pin To Net: NetName=GND Pin=MODULE?-24
+Added Pin To Net: NetName=GND Pin=MODULE?-26
+Added Pin To Net: NetName=GND Pin=MODULE?-27
+Added Pin To Net: NetName=GND Pin=MODULE?-28
+Added Pin To Net: NetName=GND Pin=MODULE?-33
+Added Pin To Net: NetName=GND Pin=MODULE?-41
+Added Pin To Net: NetName=GND Pin=MODULE?-47
+Added Pin To Net: NetName=GND Pin=P?-1
+Added Pin To Net: NetName=GND Pin=P?-3
+Added Pin To Net: NetName=GND Pin=P?-13
+Added Pin To Net: NetName=GND Pin=P?-14
+Added Net: Name=GND
+Added Pin To Net: NetName=LEDG Pin=MODULE?-13
+Added Pin To Net: NetName=LEDG Pin=R?-2
+Added Net: Name=LEDG
+Added Pin To Net: NetName=LEDO Pin=MODULE?-14
+Added Pin To Net: NetName=LEDO Pin=R?-2
+Added Net: Name=LEDO
+Added Pin To Net: NetName=NetD?_2 Pin=D?-2
+Added Pin To Net: NetName=NetD?_2 Pin=R?-1
+Added Net: Name=NetD?_2
+Added Pin To Net: NetName=NetMODULE?_9 Pin=MODULE?-9
+Added Pin To Net: NetName=NetMODULE?_9 Pin=P?-12
+Added Net: Name=NetMODULE?_9
+Added Pin To Net: NetName=NetMODULE?_10 Pin=MODULE?-10
+Added Pin To Net: NetName=NetMODULE?_10 Pin=P?-11
+Added Net: Name=NetMODULE?_10
+Added Pin To Net: NetName=NetMODULE?_30 Pin=MODULE?-30
+Added Pin To Net: NetName=NetMODULE?_30 Pin=P?-5
+Added Net: Name=NetMODULE?_30
+Added Pin To Net: NetName=NetMODULE?_31 Pin=MODULE?-31
+Added Pin To Net: NetName=NetMODULE?_31 Pin=P?-4
+Added Net: Name=NetMODULE?_31
+Added Pin To Net: NetName=NetMODULE?_35 Pin=MODULE?-35
+Added Pin To Net: NetName=NetMODULE?_35 Pin=P?-1
+Added Net: Name=NetMODULE?_35
+Added Pin To Net: NetName=NetMODULE?_36 Pin=MODULE?-36
+Added Pin To Net: NetName=NetMODULE?_36 Pin=P?-2
+Added Net: Name=NetMODULE?_36
+Added Pin To Net: NetName=NetMODULE?_37 Pin=MODULE?-37
+Added Pin To Net: NetName=NetMODULE?_37 Pin=P?-3
+Added Net: Name=NetMODULE?_37
+Added Pin To Net: NetName=NetMODULE?_38 Pin=MODULE?-38
+Added Pin To Net: NetName=NetMODULE?_38 Pin=P?-4
+Added Net: Name=NetMODULE?_38
+Added Pin To Net: NetName=NetMODULE?_39 Pin=MODULE?-39
+Added Pin To Net: NetName=NetMODULE?_39 Pin=P?-5
+Added Net: Name=NetMODULE?_39
+Added Pin To Net: NetName=NetMODULE?_40 Pin=MODULE?-40
+Added Pin To Net: NetName=NetMODULE?_40 Pin=P?-6
+Added Net: Name=NetMODULE?_40
+Added Pin To Net: NetName=NetMODULE?_43 Pin=MODULE?-43
+Added Pin To Net: NetName=NetMODULE?_43 Pin=P?-7
+Added Net: Name=NetMODULE?_43
+Added Pin To Net: NetName=NetMODULE?_44 Pin=MODULE?-44
+Added Pin To Net: NetName=NetMODULE?_44 Pin=P?-8
+Added Net: Name=NetMODULE?_44
+Added Pin To Net: NetName=NetMODULE?_45 Pin=MODULE?-45
+Added Pin To Net: NetName=NetMODULE?_45 Pin=P?-9
+Added Net: Name=NetMODULE?_45
+Added Pin To Net: NetName=NetMODULE?_46 Pin=MODULE?-46
+Added Pin To Net: NetName=NetMODULE?_46 Pin=P?-10
+Added Net: Name=NetMODULE?_46
+Added Pin To Net: NetName=RESET Pin=MODULE?-32
+Added Pin To Net: NetName=RESET Pin=P?-1
+Added Pin To Net: NetName=RESET Pin=R?-2
+Added Net: Name=RESET
+Added Pin To Net: NetName=RTS Pin=MODULE?-2
+Added Pin To Net: NetName=RTS Pin=P?-3
+Added Net: Name=RTS
+Added Pin To Net: NetName=RX Pin=MODULE?-7
+Added Pin To Net: NetName=RX Pin=P?-5
+Added Net: Name=RX
+Added Pin To Net: NetName=TX Pin=MODULE?-6
+Added Pin To Net: NetName=TX Pin=P?-4
+Added Net: Name=TX
+Added Class: Name=Funk
+Added Room: Name=Funk

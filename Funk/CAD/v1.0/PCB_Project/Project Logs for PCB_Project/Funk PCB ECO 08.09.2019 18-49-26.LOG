@@ -1,0 +1,31 @@
+Change Component Comment : Designator=P? Old Comment=GPIO Pin 1 New Comment=GPIO Pins 1
+Change Component Comment : Designator=P? Old Comment=Header 2 New Comment=GPIO Pins 1.1
+Change Component Designator: OldDesignator=P1 NewDesignator=P2
+Change Component Designator: OldDesignator=P2 NewDesignator=P3
+Change Component Designator: OldDesignator=P3 NewDesignator=P4
+Change Component Designator: OldDesignator=P? NewDesignator=P1
+Change Component Designator: OldDesignator=P? NewDesignator=P5
+Change Component Designator: OldDesignator=P? NewDesignator=P6
+Added Component: Designator=P7(HDR1X6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Discription"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetMODULE1_46 Pin=P6-1
+Added Pin To Net: NetName=NetMODULE1_45 Pin=P6-2
+Added Pin To Net: NetName=RES1 Pin=P7-1
+Added Pin To Net: NetName=RES2 Pin=P7-2
+Added Pin To Net: NetName=NetMODULE1_9 Pin=P7-3
+Added Pin To Net: NetName=NetMODULE1_10 Pin=P7-4
+Added Pin To Net: NetName=LEDG Pin=P7-5
+Added Pin To Net: NetName=LEDO Pin=P7-6
+Added Member To Class: ClassName=Funk Member=Component P4 ICSP PICkit 3
+Added Member To Class: ClassName=Funk Member=Component P5 GPIO Pins 1
+Added Member To Class: ClassName=Funk Member=Component P6 GPIO Pins 1.1
+Added Member To Class: ClassName=Funk Member=Component P7 GPIO Pins 2
+Added Rule: Name=Schematic Impedance Constraint_1
