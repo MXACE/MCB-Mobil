@@ -10,8 +10,9 @@ The Software written for the Arduino is made in [Arduino](https://www.arduino.cc
 The controller is on version 2.0. The old files of version 1.0 are not on this github.
 See "Controller Changelog" or the documentation below for more information.
 
-[First Documentation v1.0](-)
-[Second Documentation (Controller v2.0)](-)
+[First Documentation v1.0](https://github.com/MXACE/MCB-Mobil/tree/master/Documentation/MCB_Mobil_Doku_LarsPeter_MarcoStauber.pdf)
+
+[Second Documentation (Controller v2.0)](https://github.com/MXACE/MCB-Mobil/tree/master/Documentation/Doku_controller.pdf)
 
 ## Controller Changelog
 v2.0
@@ -29,23 +30,21 @@ v2.0
 
 ## Important Files:
 
-Schematics of the Car, Controller and the Lora Breakoutboard can be found [here](-)
+Schematics of the Car, Controller and the Lora Breakoutboard can be found [here](https://github.com/MXACE/MCB-Mobil/tree/master/All_Schematics)
 
 ### Car:
-- [PCB Files](https://github.com/MXACE/MCB-Mobil/tree/master/Chassis/CAD/v1.0/Chassisv1.0)
-- [PCB Files2](./tree/master/Chassis/CAD/v1.0/Chassisv1.0)
-- [3D Printed Casing Parts (Scheinwerfer & Plexiglashalter)](https://github.com/MXACE/MCB-Mobil/tree/master/Chassis/3d%20modell/new_model/3dprint)
-- [Software for STM32F107](https://github.com/MXACE/MCB-Mobil/tree/master/Chassis/SW)
-- [Software for Arduino Nano](https://github.com/MXACE/MCB-Mobil/tree/master/Chassis/SW_ARD)
-- [BOM](https://github.com/MXACE/MCB-Mobil/tree/master/Chassis/Assembly)
+- [PCB Files](https://github.com/MXACE/MCB-Mobil/tree/master/Car/CAD/v1.0/Chassisv1.0)
+- [3D Printed Casing Parts (Scheinwerfer & Plexiglashalter)](https://github.com/MXACE/MCB-Mobil/tree/master/Car/3d%20modell/3dprint)
+- [Software for STM32F107](https://github.com/MXACE/MCB-Mobil/tree/master/Car/SW)
+- [Software for Arduino Nano](https://github.com/MXACE/MCB-Mobil/tree/master/Car/SW_ARD)
+- [BOM](https://github.com/MXACE/MCB-Mobil/tree/master/Car/Assembly)
 
 ### Controller:
-- [PCB Files]()
-- [3D Printed Casing Parts](-)
-- [Software for STM32F405](-)
-- [BOM]()
+- [PCB Files](https://github.com/MXACE/MCB-Mobil/tree/master/Controller/PCB)
+- [3D Printed Casing Parts](https://github.com/MXACE/MCB-Mobil/tree/master/Controller/Assembly)
+- [Software for STM32F405](https://github.com/MXACE/MCB-Mobil/tree/master/Controller/SW)
+- [BOM](https://github.com/MXACE/MCB-Mobil/tree/master/Controller/BOM)
 
 ### RN2483 Lora Breakout Module
 - [PCB Files](https://github.com/MXACE/MCB-Mobil/tree/master/Funk/CAD/v1.0/PCB_Project)
-- [3D Printed Casing Parts](-)
 - [BOM](https://github.com/MXACE/MCB-Mobil/tree/master/Funk/Assembly)
