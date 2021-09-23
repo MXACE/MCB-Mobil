@@ -1,0 +1,3 @@
+Change Component Footprint: Designator=R7 Old Footprint=RES_0603i_1608m -N New Footprint=RES_0402i_1005m -N
+Change Component Footprint: Designator=R8 Old Footprint=RES_0603i_1608m -N New Footprint=RES_0402i_1005m -N
+Added Member To Class: ClassName=Controller Member=Component R3 1k

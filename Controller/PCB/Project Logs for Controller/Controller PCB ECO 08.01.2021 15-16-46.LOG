@@ -1,0 +1,47 @@
+Added Component: Designator=J2(Joystick)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J3(Joystick)
+Add component. Clean all parameters for all variants
+Added Component: Designator=U7(*MICROCHIP_RN2483-I/RM095)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "RN2483-I/RM095"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/RN2483-I/RM095/Microchip/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=3V3 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_4 Pin=J2-4
+Added Pin To Net: NetName=NetJ2_5 Pin=J2-5
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=3V3 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_3 Pin=J3-3
+Added Pin To Net: NetName=NetJ3_4 Pin=J3-4
+Added Pin To Net: NetName=NetJ3_5 Pin=J3-5
+Added Pin To Net: NetName=GND Pin=U7-1
+Added Pin To Net: NetName=Net*1_20 Pin=U7-6
+Added Pin To Net: NetName=Net*1_21 Pin=U7-7
+Added Pin To Net: NetName=GND Pin=U7-8
+Added Pin To Net: NetName=GND Pin=U7-11
+Added Pin To Net: NetName=3V3 Pin=U7-12
+Added Pin To Net: NetName=NetR8_2 Pin=U7-13
+Added Pin To Net: NetName=NetR7_2 Pin=U7-14
+Added Pin To Net: NetName=GND Pin=U7-20
+Added Pin To Net: NetName=GND Pin=U7-21
+Added Pin To Net: NetName=GND Pin=U7-22
+Added Pin To Net: NetName=NetP7_1 Pin=U7-23
+Added Pin To Net: NetName=GND Pin=U7-24
+Added Pin To Net: NetName=GND Pin=U7-26
+Added Pin To Net: NetName=GND Pin=U7-27
+Added Pin To Net: NetName=GND Pin=U7-28
+Added Pin To Net: NetName=NetC7_2 Pin=U7-32
+Added Pin To Net: NetName=GND Pin=U7-33
+Added Pin To Net: NetName=3V3 Pin=U7-34
+Added Pin To Net: NetName=GND Pin=U7-41
+Added Pin To Net: NetName=GND Pin=U7-47
+Added Member To Class: ClassName=Controller Member=Component J2 Joystick
+Added Member To Class: ClassName=Controller Member=Component J3 Joystick
+Added Member To Class: ClassName=Controller Member=Component U7 RN2483-I/RM095

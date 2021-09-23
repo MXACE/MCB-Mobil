@@ -1,0 +1,20 @@
+Change Component Footprint: Designator=C4 Old Footprint=CAP_0603i_1608m -L New Footprint=CAP_0402i_1005m -N
+Change Component Footprint: Designator=C6 Old Footprint=CAP_0603i_1608m -L New Footprint=CAP_0402i_1005m -N
+Change Component Footprint: Designator=R1 Old Footprint=RES_0603i_1608m -N New Footprint=RES_0402i_1005m -N
+Change Component Footprint: Designator=R2 Old Footprint=RES_0603i_1608m -N New Footprint=RES_0402i_1005m -N
+Change Component Comment : Designator=R1 Old Comment=1000 New Comment=1k
+Change Component Comment : Designator=R2 Old Comment=1000 New Comment=1k
+Added Component: Designator=C20(CAP_0402i_1005m -N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Note"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C20-1
+Added Pin To Net: NetName=3V3 Pin=C20-2
+Added Member To Class: ClassName=Controller Member=Component C20 100nF

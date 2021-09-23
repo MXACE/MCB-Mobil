@@ -1,0 +1,50 @@
+Removed Pin From Net: NetName=3V3 Pin=U6-1
+Removed Pin From Net: NetName=NetR4_2 Pin=U6-28
+Removed Pin From Net: NetName=NetR3_2 Pin=U6-29
+Removed Pin From Net: NetName=NetC19_1 Pin=U6-30
+Removed Pin From Net: NetName=GND Pin=U6-31
+Removed Pin From Net: NetName=GND Pin=U6-47
+Change Component Footprint: Designator=U6 Old Footprint=FP-LQFP64-5W-MFG New Footprint=FP-LQFP64-5W-IPC_C
+Change Component Comment : Designator=U6 Old Comment=STM32F730R8T6 New Comment=STM32F405RGT6TR
+Change component parameters: Designator = "U6"; Footprint = "FP-LQFP64-5W-IPC_C"; UniqueID = "\UUPWXBAK"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "LQFP"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Core Architecture"; Value = "ARM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Data Bus Width"; Value = "32b"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Frequency"; Value = "168MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "1.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "10mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Frequency"; Value = "168MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "435mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Supply Voltage"; Value = "3.6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Memory Size"; Value = "1024KB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Memory Type"; Value = "FLASH"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Supply Voltage"; Value = "1.8V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of ADC Channels"; Value = "16"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of I2C Channels"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of I/Os"; Value = "51"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "64"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Programmable I/O"; Value = "51"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of SPI Channels"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Timers/Counters"; Value = "14"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of UART Channels"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of USB Channels"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Oscillator Type"; Value = "Internal"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Peripherals"; Value = "Brown-out Detect/Reset"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RAM Size"; Value = "196KB"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Watchdog Timer"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "10mm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U6-1
+Added Pin To Net: NetName=NetR4_2 Pin=U6-29
+Added Pin To Net: NetName=NetR3_2 Pin=U6-30
+Added Pin To Net: NetName=NetC19_1 Pin=U6-31
+Added Pin To Net: NetName=NetC19_1 Pin=U6-47

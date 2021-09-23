@@ -1,0 +1,16 @@
+Added Component: Designator=J2(Joystick)
+Add component. Clean all parameters for all variants
+Added Component: Designator=J3(Joystick)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=3V3 Pin=J2-2
+Added Pin To Net: NetName=NetJ2_3 Pin=J2-3
+Added Pin To Net: NetName=NetJ2_4 Pin=J2-4
+Added Pin To Net: NetName=NetJ2_5 Pin=J2-5
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=3V3 Pin=J3-2
+Added Pin To Net: NetName=NetJ3_3 Pin=J3-3
+Added Pin To Net: NetName=NetJ3_4 Pin=J3-4
+Added Pin To Net: NetName=NetJ3_5 Pin=J3-5
+Added Member To Class: ClassName=Controller Member=Component J2 Joystick
+Added Member To Class: ClassName=Controller Member=Component J3 Joystick

@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=GND Pin=*1-17
+Removed Pin From Net: NetName=Net*1_20 Pin=*1-20
+Removed Pin From Net: NetName=Net*1_21 Pin=*1-21
+Removed Pin From Net: NetName=3V3 Pin=*1-22
+Removed Pin From Net: NetName=GND Pin=*1-23
+Removed Member From Class: ClassName=Controller Member=*1
+Added Component: Designator=U8(LoRA - w/o holes)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=U8-17
+Added Pin To Net: NetName=Net*1_20 Pin=U8-20
+Added Pin To Net: NetName=Net*1_21 Pin=U8-21
+Added Pin To Net: NetName=3V3 Pin=U8-22
+Added Pin To Net: NetName=GND Pin=U8-23
+Change Net Name : Old Net Name=Net*1_20 New Net Name=NetP6_2
+Change Net Name : Old Net Name=Net*1_21 New Net Name=NetP6_1
+Added Member To Class: ClassName=Controller Member=Component U8 LoRa Modul

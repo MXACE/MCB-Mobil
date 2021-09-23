@@ -1,0 +1,12 @@
+Output: NC Drill Files (mil 2.5)
+Type  : NC Drill
+From  : PCB Document [PCB_Chassisv1.0.PcbDoc]
+   Generated File[PCB_Chassisv1.0.TXT]
+   Generated File[PCB_Chassisv1.0.LDP]
+   Generated File[PCB_Chassisv1.0.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 03:18:04 On 30.12.2019

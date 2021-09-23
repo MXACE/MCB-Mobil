@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PCB_Chassisv1.0.PcbDoc   30.12.2019  03:18:04
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PCB_Chassisv1.0.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             760       PTH        0.00inch (0.00mm)
+T2      30mil (0.762mm)                                           Round             28        PTH        0.00inch (0.00mm)
+T3      35mil (0.9mm)                                             Round             30        PTH        0.00inch (0.00mm)
+T4      39mil (1mm)                                               Round             20        PTH        0.00inch (0.00mm)
+T5      43mil (1.1mm)                                             Round             103       PTH        0.00inch (0.00mm)
+T6      47mil (1.2mm)                                             Round             22        PTH        0.00inch (0.00mm)
+T7      98mil (2.5mm)                                             Round             2         PTH        0.00inch (0.00mm)
+T8      35mil (0.9mm)                                             Round             4         NPTH       0.00inch (0.00mm)
+T9      130mil (3.3mm)                                            Round             14        NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              983
+
+Total Processing Time (hh:mm:ss) : 00:00:00

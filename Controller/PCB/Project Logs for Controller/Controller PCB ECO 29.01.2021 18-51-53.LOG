@@ -1,0 +1,15 @@
+Change Component Footprint: Designator=R3 Old Footprint=RES_0603i_1608m -N New Footprint=RES_0402i_1005m -N
+Change Component Footprint: Designator=R4 Old Footprint=RES_0603i_1608m -N New Footprint=RES_0402i_1005m -N
+Change Component Comment : Designator=C8 Old Comment=100 nF New Comment=100nF
+Change Component Comment : Designator=C9 Old Comment=100 nF New Comment=100nF
+Change Component Comment : Designator=C11 Old Comment=100 nF New Comment=100nF
+Change Component Comment : Designator=C12 Old Comment=100 nF New Comment=100nF
+Change Component Comment : Designator=C13 Old Comment=100 nF New Comment=100nF
+Change Component Comment : Designator=C14 Old Comment=100 nF New Comment=100nF
+Change Component Comment : Designator=C15 Old Comment=100 nF New Comment=100nF
+Change Component Comment : Designator=C19 Old Comment=100 nF New Comment=100nF
+Change Component Description : Designator=T1 Old Description=No Description Available New Description=Transistor SMD
+Change Component Description : Designator=T2 Old Description=No Description Available New Description=Transistor SMD
+Change Component Description : Designator=T3 Old Description=No Description Available New Description=Transistor SMD
+Change Component Description : Designator=T4 Old Description=No Description Available New Description=Transistor SMD
+Change Component Description : Designator=T5 Old Description=No Description Available New Description=Transistor SMD

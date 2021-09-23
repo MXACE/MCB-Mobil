@@ -1,0 +1,38 @@
+Project Outputs Generation Report
+---------------------------------
+Start Output Generation At 01:18:28 On 28.12.2019
+
+Output: ODB++ Files
+Type  : ODB
+From  : Variant [[No Variations]] of PCB Document [Controller.PcbDoc]
+   Generated File[matrix]
+   Generated File[profile]
+   Generated File[stephdr]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[features]
+   Generated File[tools]
+   Generated File[features]
+   Generated File[components]
+   Generated File[features]
+   Generated File[components]
+   Generated File[features]
+   Generated File[tools]
+   Generated File[data]
+   Generated File[netlist]
+   Generated File[Controller.REP]
+
+
+Files Generated   : 25
+Documents Printed : 0
+
+Finished Output Generation At 01:18:31 On 28.12.2019

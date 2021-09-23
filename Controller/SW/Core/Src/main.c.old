@@ -1,0 +1,783 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+  * All rights reserved.</center></h2>
+  *
+  * This software component is licensed by ST under BSD 3-Clause license,
+  * the "License"; You may not use this file except in compliance with the
+  * License. You may obtain a copy of the License at:
+  *                        opensource.org/licenses/BSD-3-Clause
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+#include "COM.h"
+#include "CMDHandler.h"
+#include "lora.h"
+#include "ssd1351.h"
+#include "gfx.h"
+#include "screen.h"
+#include "bmg250.h"
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+extern Colors colors;
+
+#define Waddress 0b11010000
+#define Raddress 0b11010001
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+ADC_HandleTypeDef hadc1;
+DMA_HandleTypeDef hdma_adc1;
+
+I2C_HandleTypeDef hi2c3;
+
+SPI_HandleTypeDef hspi1;
+
+UART_HandleTypeDef huart1;
+UART_HandleTypeDef huart3;
+
+/* USER CODE BEGIN PV */
+char rx_lora_buff[1];
+char rx_com_buff[1];
+uint32_t ADCvalues[4];
+
+char s_buf[50];
+
+//extern Colors colors;
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_DMA_Init(void);
+static void MX_ADC1_Init(void);
+static void MX_SPI1_Init(void);
+static void MX_USART1_UART_Init(void);
+static void MX_USART3_UART_Init(void);
+static void MX_I2C3_Init(void);
+static void MX_NVIC_Init(void);
+/* USER CODE BEGIN PFP */
+void pin_cs(uint8_t pinstate);
+void pin_dc(uint8_t pinstate);
+void pin_rs(uint8_t pinstate);
+void transmit_data(uint8_t *data, uint32_t len);
+void user_delay_ms(uint32_t period);
+
+void print_rslt(const char api_name[], int8_t rslt);
+void delay_ms(uint32_t period_ms);
+int8_t i2c_reg_write(uint8_t i2c_addr, uint8_t reg_addr, uint8_t *reg_data, uint16_t length);
+int8_t i2c_reg_read(uint8_t i2c_addr, uint8_t reg_addr, uint8_t *reg_data, uint16_t length);
+
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_ADC1_Init();
+  MX_SPI1_Init();
+  MX_USART1_UART_Init();
+  MX_USART3_UART_Init();
+  MX_I2C3_Init();
+
+  /* Initialize interrupts */
+  MX_NVIC_Init();
+  /* USER CODE BEGIN 2 */
+  //SCREEN
+  s_ssd1351 fnptrs_main;
+
+  	fnptrs_main.pin_cs = pin_cs;
+  	fnptrs_main.pin_rs = pin_rs;
+  	fnptrs_main.pin_dc = pin_dc;
+  	fnptrs_main.transmit_data = transmit_data;
+  	fnptrs_main.delay = user_delay_ms;
+
+  //INTERRUPTS
+  HAL_UART_Receive_IT(&huart1,(uint8_t*)rx_lora_buff,1);
+  HAL_UART_Receive_IT(&huart3,(uint8_t*)rx_com_buff,1);
+  HAL_ADC_Start_DMA(&hadc1,(uint32_t *)ADCvalues, 4);
+  //HAL_ADC_Start(&hadc1);
+
+  //Turn "Running" LED on
+  HAL_GPIO_WritePin(LED_A_GPIO_Port,LED_A_Pin,GPIO_PIN_SET);
+  HAL_Delay(200);
+  //BMG250 Init
+/*
+  if(HAL_I2C_IsDeviceReady(&hi2c3, Raddress, 2, 10) == HAL_OK)
+  {
+	  HAL_GPIO_WritePin(LED_B_GPIO_Port,LED_B_Pin,GPIO_PIN_SET);
+  }
+  else
+  {
+	  HAL_GPIO_WritePin(LED_C_GPIO_Port,LED_C_Pin,GPIO_PIN_SET);
+  }
+
+  int8_t rslt;
+  struct bmg250_dev gyro;
+
+  //Map the delay function pointer with the function responsible for implementing the delay
+  gyro.delay_ms = delay_ms;
+
+  //Assign device I2C address based on the status of SDO pin (GND for PRIMARY(0x68) & VDD for SECONDARY(0x69))
+  gyro.dev_id = BMG250_I2C_ADDR;
+
+  // Select the interface mode as I2C
+  gyro.intf = BMG250_I2C_INTF;
+
+  // Map the I2C read & write function pointer with the functions responsible for I2C bus transfer
+  gyro.read = i2c_reg_read;
+  gyro.write = i2c_reg_write;
+
+
+  rslt = bmg250_init(&gyro);
+  print_rslt(" bmg250_init status", rslt);
+
+  while(1);
+*/
+  //LORA Reset
+  HAL_GPIO_WritePin(LORA_RESET_GPIO_Port,LORA_RESET_Pin,GPIO_PIN_SET);
+  HAL_Delay(10);
+  HAL_GPIO_WritePin(LORA_RESET_GPIO_Port,LORA_RESET_Pin,GPIO_PIN_RESET);
+  HAL_Delay(10);
+  HAL_GPIO_WritePin(LORA_RESET_GPIO_Port,LORA_RESET_Pin,GPIO_PIN_SET);
+  HAL_Delay(1000);
+
+  //Init LORA
+  if(!lora_init())
+  {
+	//if failed turn LED_B on
+	HAL_GPIO_WritePin(LED_B_GPIO_Port,LED_B_Pin,GPIO_PIN_SET);
+	while(1);
+  }
+
+  HAL_Delay(200);
+  //SET "running" LED on RN2483 on
+  LORA_TX("sys set pindig GPIO11 1\r\n");
+
+  //Display Init
+  init_oled(1,1, &fnptrs_main);
+  screen_init();
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+	  //COM Command Handler, a can be ignored
+	  CH_HANDLER(0,"a");
+	  Joystick(ADCvalues);
+	  HAL_Delay(100);
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Configure the main internal regulator output voltage
+  */
+  __HAL_RCC_PWR_CLK_ENABLE();
+  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE1);
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLM = 8;
+  RCC_OscInitStruct.PLL.PLLN = 168;
+  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+  RCC_OscInitStruct.PLL.PLLQ = 4;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV4;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV2;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_5) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief NVIC Configuration.
+  * @retval None
+  */
+static void MX_NVIC_Init(void)
+{
+  /* USART1_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(USART1_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(USART1_IRQn);
+  /* DMA2_Stream0_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA2_Stream0_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA2_Stream0_IRQn);
+  /* USART3_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(USART3_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(USART3_IRQn);
+}
+
+/**
+  * @brief ADC1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC1_Init(void)
+{
+
+  /* USER CODE BEGIN ADC1_Init 0 */
+
+  /* USER CODE END ADC1_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC1_Init 1 */
+
+  /* USER CODE END ADC1_Init 1 */
+  /** Configure the global features of the ADC (Clock, Resolution, Data Alignment and number of conversion)
+  */
+  hadc1.Instance = ADC1;
+  hadc1.Init.ClockPrescaler = ADC_CLOCK_SYNC_PCLK_DIV4;
+  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc1.Init.ScanConvMode = ENABLE;
+  hadc1.Init.ContinuousConvMode = ENABLE;
+  hadc1.Init.DiscontinuousConvMode = DISABLE;
+  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc1.Init.NbrOfConversion = 4;
+  hadc1.Init.DMAContinuousRequests = ENABLE;
+  hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  if (HAL_ADC_Init(&hadc1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Channel = ADC_CHANNEL_0;
+  sConfig.Rank = 1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_56CYCLES;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Channel = ADC_CHANNEL_1;
+  sConfig.Rank = 2;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Channel = ADC_CHANNEL_2;
+  sConfig.Rank = 3;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Channel = ADC_CHANNEL_3;
+  sConfig.Rank = 4;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC1_Init 2 */
+
+  /* USER CODE END ADC1_Init 2 */
+
+}
+
+/**
+  * @brief I2C3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C3_Init(void)
+{
+
+  /* USER CODE BEGIN I2C3_Init 0 */
+
+  /* USER CODE END I2C3_Init 0 */
+
+  /* USER CODE BEGIN I2C3_Init 1 */
+
+  /* USER CODE END I2C3_Init 1 */
+  hi2c3.Instance = I2C3;
+  hi2c3.Init.ClockSpeed = 100000;
+  hi2c3.Init.DutyCycle = I2C_DUTYCYCLE_2;
+  hi2c3.Init.OwnAddress1 = 0;
+  hi2c3.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c3.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c3.Init.OwnAddress2 = 0;
+  hi2c3.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c3.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C3_Init 2 */
+
+  /* USER CODE END I2C3_Init 2 */
+
+}
+
+/**
+  * @brief SPI1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SPI1_Init(void)
+{
+
+  /* USER CODE BEGIN SPI1_Init 0 */
+
+  /* USER CODE END SPI1_Init 0 */
+
+  /* USER CODE BEGIN SPI1_Init 1 */
+
+  /* USER CODE END SPI1_Init 1 */
+  /* SPI1 parameter configuration*/
+  hspi1.Instance = SPI1;
+  hspi1.Init.Mode = SPI_MODE_MASTER;
+  hspi1.Init.Direction = SPI_DIRECTION_2LINES;
+  hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
+  hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+  hspi1.Init.NSS = SPI_NSS_SOFT;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_16;
+  hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
+  hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
+  hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+  hspi1.Init.CRCPolynomial = 10;
+  if (HAL_SPI_Init(&hspi1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN SPI1_Init 2 */
+
+  /* USER CODE END SPI1_Init 2 */
+
+}
+
+/**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 57600;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+
+  /* USER CODE END USART1_Init 2 */
+
+}
+
+/**
+  * @brief USART3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART3_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART3_Init 0 */
+
+  /* USER CODE END USART3_Init 0 */
+
+  /* USER CODE BEGIN USART3_Init 1 */
+
+  /* USER CODE END USART3_Init 1 */
+  huart3.Instance = USART3;
+  huart3.Init.BaudRate = 115200;
+  huart3.Init.WordLength = UART_WORDLENGTH_8B;
+  huart3.Init.StopBits = UART_STOPBITS_1;
+  huart3.Init.Parity = UART_PARITY_NONE;
+  huart3.Init.Mode = UART_MODE_TX_RX;
+  huart3.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart3.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART3_Init 2 */
+
+  /* USER CODE END USART3_Init 2 */
+
+}
+
+/**
+  * Enable DMA controller clock
+  */
+static void MX_DMA_Init(void)
+{
+
+  /* DMA controller clock enable */
+  __HAL_RCC_DMA2_CLK_ENABLE();
+
+}
+
+/**
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, LED_A_Pin|LED_B_Pin|LED_C_Pin|BMG_CS_Pin
+                          |BMG_INT1_Pin|BMG_INT2_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, OLED_CS_Pin|OLED_DC_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(OLED_RST_GPIO_Port, OLED_RST_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(LORA_RESET_GPIO_Port, LORA_RESET_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pins : LED_A_Pin LED_B_Pin LED_C_Pin BMG_CS_Pin
+                           BMG_INT1_Pin BMG_INT2_Pin */
+  GPIO_InitStruct.Pin = LED_A_Pin|LED_B_Pin|LED_C_Pin|BMG_CS_Pin
+                          |BMG_INT1_Pin|BMG_INT2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : ADC_BUTTON_1_Pin ADC_BUTTON_2_Pin */
+  GPIO_InitStruct.Pin = ADC_BUTTON_1_Pin|ADC_BUTTON_2_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : OLED_CS_Pin OLED_DC_Pin */
+  GPIO_InitStruct.Pin = OLED_CS_Pin|OLED_DC_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : OLED_RST_Pin */
+  GPIO_InitStruct.Pin = OLED_RST_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_MEDIUM;
+  HAL_GPIO_Init(OLED_RST_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : LORA_RESET_Pin */
+  GPIO_InitStruct.Pin = LORA_RESET_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(LORA_RESET_GPIO_Port, &GPIO_InitStruct);
+
+}
+
+/* USER CODE BEGIN 4 */
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+{
+	if(huart->Instance==USART3)				//COM
+	{
+		//CH_BUFFER(rx_com_buff);
+		//HAL_GPIO_TogglePin(LED_C_GPIO_Port,LED_C_Pin);
+		HAL_UART_Receive_IT(&huart3,(uint8_t*)rx_com_buff,1);
+		CH_BUFFER(rx_com_buff);
+		//HAL_UART_Transmit(&huart3, (uint8_t *)rx_com_buff, strlen(rx_com_buff), 100);
+	}
+	if(huart->Instance==USART1)				//LORA
+	{
+		//LORA_BUFFER(rx_lora_buff);
+		//HAL_GPIO_TogglePin(LED_C_GPIO_Port,LED_C_Pin);
+		HAL_UART_Receive_IT(&huart1,(uint8_t*)rx_lora_buff,1);
+		//COM_TX(rx_lora_buff);
+		LORA_BUFFER(rx_lora_buff);
+	}
+
+	//singleChar = alpha[0];
+	//CH_BUFFER(&singleChar);
+}
+
+void HAL_ADC_ConvCpltCallback( ADC_HandleTypeDef * hadc)
+{
+	//1
+		//[0] = left left/right (l=4100,r=0,m=2100)
+		//[1] = left up/down (d=0,u=4100,m=2060)
+		//[2] = right left/right (l=0,r=4100,m=2060)
+		//[3] = right up/down (d=4100,u=0,m=2000)
+	//2
+		//[0] = left left/right (l=4100,r=0,m=2040)
+		//[1] = left up/down (d=0,u=4100,m=2040)
+		//[2] = right left/right (l=0,r=4100,m=2015)
+		//[3] = right up/down (d=4100,u=0,m=2000)
+
+		/*sprintf(s_buf,"%i",ADCvalues[3]);
+		COM_TX(s_buf);
+		COM_TX("\r\n");*/
+		//Joystick(ADCvalues);
+		//COM_TX("New Values \r\n");
+		HAL_ADC_Start_DMA(&hadc1,ADCvalues, 4);
+		//HAL_ADC_Start(&hadc1);
+
+}
+
+void pin_cs(uint8_t pinstate)
+{
+	HAL_GPIO_WritePin(OLED_CS_GPIO_Port, OLED_CS_Pin, pinstate);
+}
+
+void pin_dc(uint8_t pinstate)
+{
+	HAL_GPIO_WritePin(OLED_DC_GPIO_Port, OLED_DC_Pin, pinstate);
+}
+
+void pin_rs(uint8_t pinstate)
+{
+	HAL_GPIO_WritePin(OLED_RST_GPIO_Port, OLED_RST_Pin, pinstate);
+}
+
+void transmit_data(uint8_t *data, uint32_t len)
+{
+	HAL_SPI_Transmit(&hspi1, data, len, 1000);
+}
+void user_delay_ms(uint32_t period)
+{
+	HAL_Delay(period);
+}
+
+
+void print_rslt(const char api_name[], int8_t rslt)
+{
+    if (rslt != BMG250_OK)
+    {
+        printf("%s\t", api_name);
+        if (rslt == BMG250_E_NULL_PTR)
+        {
+        	COM_TX("Error -");
+        	COM_TX("1");
+        	COM_TX(" : Null pointer error\r\n");
+
+            //printf("Error [%d] : Null pointer error\r\n", rslt);
+        }
+        else if (rslt == BMG250_E_COM_FAIL)
+        {
+        	COM_TX("Error -");
+        	COM_TX("2");
+			COM_TX(": Bus communication failed\r\n");
+            //printf("Error [%d] : Bus communication failed\r\n", rslt);
+        }
+        else if (rslt == BMG250_E_INVALID_TEMPERATURE)
+        {
+        	COM_TX("Error -");
+        	COM_TX("7");
+        	COM_TX(": Invalid Temperature\r\n");
+            //printf("Error [%d] : Invalid Temperature\r\n", rslt);
+        }
+        else if (rslt == BMG250_E_DEV_NOT_FOUND)
+        {
+        	COM_TX("Error -");
+        	COM_TX("3");
+        	COM_TX(": Device not found\r\n");
+        	//HAL_GPIO_WritePin(LED_C_GPIO_Port,LED_C_Pin, GPIO_PIN_SET);
+            //("Error [%d] : Device not found\r\n", rslt);
+        }
+        else
+        {
+        	COM_TX("Error -");
+        	COM_TX("0");
+        	COM_TX(" : Unknown error code\r\n");
+            /* For more error codes refer "*_defs.h" */
+            printf("Error [%d] : Unknown error code\r\n", rslt);
+        }
+    }
+    else
+    {
+    	HAL_GPIO_WritePin(LED_B_GPIO_Port,LED_B_Pin, GPIO_PIN_SET);
+    }
+}
+
+void delay_ms(uint32_t period_ms)
+{
+   HAL_Delay(period_ms);
+}
+
+/*!
+ *  @brief Function for writing the sensor's registers through I2C bus.
+ *
+ *  @param[in] i2c_addr : sensor I2C address.
+ *  @param[in] reg_addr : Register address.
+ *  @param[in] reg_data : Pointer to the data buffer whose value is to be written.
+ *  @param[in] length   : No of bytes to write.
+ *
+ *  @return Status of execution
+ *  @retval 0 -> Success
+ *  @retval >0 -> Failure Info
+ *
+ */
+int8_t i2c_reg_write(uint8_t i2c_addr, uint8_t reg_addr, uint8_t *reg_data, uint16_t length)
+{
+	HAL_I2C_Master_Transmit(&hi2c3, i2c_addr, &reg_addr, 1, 10);
+	HAL_I2C_Master_Transmit(&hi2c3, i2c_addr, &reg_data, length, 10);
+    return -1;
+}
+
+/*!
+ *  @brief Function for reading the sensor's registers through I2C bus.
+ *
+ *  @param[in] i2c_addr : Sensor I2C address.
+ *  @param[in] reg_addr : Register address.
+ *  @param[out] reg_data    : Pointer to the data buffer to store the read data.
+ *  @param[in] length   : No of bytes to read.
+ *
+ *  @return Status of execution
+ *  @retval 0 -> Success
+ *  @retval >0 -> Failure Info
+ *
+ */
+int8_t i2c_reg_read(uint8_t i2c_addr, uint8_t reg_addr, uint8_t *reg_data, uint16_t length)
+{
+
+	HAL_I2C_Master_Transmit(&hi2c3, i2c_addr, &reg_addr, 1, 10);
+	HAL_I2C_Master_Receive(&hi2c3, i2c_addr, &reg_data,length,100);
+    return -1;
+}
+
+
+
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     tex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */
+
+/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

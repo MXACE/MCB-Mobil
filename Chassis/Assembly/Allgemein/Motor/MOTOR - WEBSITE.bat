@@ -1,2 +1,0 @@
-@echo off
-start https://www.conrad.ch/de/p/motraxx-x-drive-540-2-universal-brushed-elektromotor-11600-u-min-244449.html?WT.srch=1&gclid=CjwKCAjwtajrBRBVEiwA8w2Q8JGbxnj2daCqOaJqvGr2flP50QqSiz9dHksEnldBMN4rImcIR2CBeRoCcBkQAvD_BwE&utm_campaign=shopping-online-de&utm_content=shopping-ad_cpc&utm_medium=search&utm_source=google-shopping-de

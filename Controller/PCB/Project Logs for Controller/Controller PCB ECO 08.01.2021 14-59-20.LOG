@@ -1,0 +1,7 @@
+Added Pin To Net: NetName=NetP7_1 Pin=P7-1
+Added Net: Name=NetP7_1
+Added Pin To Net: NetName=NetR7_2 Pin=R7-2
+Added Net: Name=NetR7_2
+Added Pin To Net: NetName=NetR8_2 Pin=R8-2
+Added Net: Name=NetR8_2
+Change Rule Scope 1 : Old Scope=InNet('NetMODULE?_23') New Scope=InNet('NetP7_1')
